@@ -1,0 +1,52 @@
+[2019-02-10 19:00:31,401] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10T18:55:59.679222+00:00 [queued]>
+[2019-02-10 19:00:31,403] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10T18:55:59.679222+00:00 [queued]>
+[2019-02-10 19:00:31,403] {models.py:1571} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-10 19:00:31,411] {models.py:1593} INFO - Executing <Task(BashOperator): Ingestion_from_S3> on 2019-02-10T18:55:59.679222+00:00
+[2019-02-10 19:00:31,411] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run Rescale Ingestion_from_S3 2019-02-10T18:55:59.679222+00:00 --job_id 3 --raw -sd DAGS_FOLDER/rs-pipeline1.py --cfg_path /tmp/tmphwhr_evh']
+[2019-02-10 19:00:31,939] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3 [2019-02-10 19:00:31,938] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-10 19:00:32,090] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3 [2019-02-10 19:00:32,089] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:00:32,102] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3 [2019-02-10 19:00:32,102] {cli.py:520} INFO - Running <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10T18:55:59.679222+00:00 [running]> on host ip-172-31-15-235.us-east-2.compute.internal
+[2019-02-10 19:00:32,112] {bash_operator.py:77} INFO - Tmp dir root location: 
+ /tmp
+[2019-02-10 19:00:32,112] {bash_operator.py:86} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=Rescale
+AIRFLOW_CTX_TASK_ID=Ingestion_from_S3
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-10T18:55:59.679222+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-02-10T18:55:59.679222+00:00
+[2019-02-10 19:00:32,113] {bash_operator.py:100} INFO - Temporary script location: /tmp/airflowtmps84ft38j/Ingestion_from_S3fo97xd7t
+[2019-02-10 19:00:32,113] {bash_operator.py:110} INFO - Running command: python /home/ec2-user/get_s3data.py
+[2019-02-10 19:00:32,116] {bash_operator.py:119} INFO - Output:
+[2019-02-10 19:00:32,136] {bash_operator.py:123} INFO - Traceback (most recent call last):
+[2019-02-10 19:00:32,137] {bash_operator.py:123} INFO -   File "/home/ec2-user/get_s3data.py", line 1, in <module>
+[2019-02-10 19:00:32,137] {bash_operator.py:123} INFO -     import boto3
+[2019-02-10 19:00:32,137] {bash_operator.py:123} INFO - ModuleNotFoundError: No module named 'boto3'
+[2019-02-10 19:00:32,139] {bash_operator.py:127} INFO - Command exited with return code 1
+[2019-02-10 19:00:32,144] {models.py:1788} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 1657, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 131, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2019-02-10 19:00:32,146] {models.py:1811} INFO - Marking task as UP_FOR_RETRY
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3 Traceback (most recent call last):
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/bin/airflow", line 32, in <module>
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     args.func(args)
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     return f(*args, **kwargs)
+[2019-02-10 19:00:32,157] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/bin/cli.py", line 526, in run
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     _run(args, dag, ti)
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/bin/cli.py", line 445, in _run
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     pool=args.pool,
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     return func(*args, **kwargs)
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 1657, in _run_raw_task
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     result = task_copy.execute(context=context)
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 131, in execute
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3     raise AirflowException("Bash command failed")
+[2019-02-10 19:00:32,158] {base_task_runner.py:101} INFO - Job 3: Subtask Ingestion_from_S3 airflow.exceptions.AirflowException: Bash command failed
+[2019-02-10 19:00:36,406] {logging_mixin.py:95} INFO - [2019-02-10 19:00:36,406] {jobs.py:2527} INFO - Task exited with return code 1

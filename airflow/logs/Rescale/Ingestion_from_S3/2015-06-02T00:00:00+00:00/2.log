@@ -1,0 +1,24 @@
+[2019-02-10 19:07:08,252] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Ingestion_from_S3 2015-06-02T00:00:00+00:00 [queued]>
+[2019-02-10 19:07:08,253] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Ingestion_from_S3 2015-06-02T00:00:00+00:00 [queued]>
+[2019-02-10 19:07:08,254] {models.py:1571} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 2 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-10 19:07:08,266] {models.py:1593} INFO - Executing <Task(BashOperator): Ingestion_from_S3> on 2015-06-02T00:00:00+00:00
+[2019-02-10 19:07:08,266] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run Rescale Ingestion_from_S3 2015-06-02T00:00:00+00:00 --job_id 15 --raw -sd DAGS_FOLDER/rs-pipeline1.py --cfg_path /tmp/tmpu0hq5s9w']
+[2019-02-10 19:07:08,844] {base_task_runner.py:101} INFO - Job 15: Subtask Ingestion_from_S3 [2019-02-10 19:07:08,844] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-10 19:07:08,993] {base_task_runner.py:101} INFO - Job 15: Subtask Ingestion_from_S3 [2019-02-10 19:07:08,993] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:07:09,005] {base_task_runner.py:101} INFO - Job 15: Subtask Ingestion_from_S3 [2019-02-10 19:07:09,005] {cli.py:520} INFO - Running <TaskInstance: Rescale.Ingestion_from_S3 2015-06-02T00:00:00+00:00 [running]> on host ip-172-31-15-235.us-east-2.compute.internal
+[2019-02-10 19:07:09,015] {bash_operator.py:77} INFO - Tmp dir root location: 
+ /tmp
+[2019-02-10 19:07:09,015] {bash_operator.py:86} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=Rescale
+AIRFLOW_CTX_TASK_ID=Ingestion_from_S3
+AIRFLOW_CTX_EXECUTION_DATE=2015-06-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-06-02T00:00:00+00:00
+[2019-02-10 19:07:09,015] {bash_operator.py:100} INFO - Temporary script location: /tmp/airflowtmp500a5_4r/Ingestion_from_S3t04akzge
+[2019-02-10 19:07:09,016] {bash_operator.py:110} INFO - Running command: python /home/ec2-user/get_s3data.py
+[2019-02-10 19:07:09,018] {bash_operator.py:119} INFO - Output:
+[2019-02-10 19:07:10,096] {bash_operator.py:127} INFO - Command exited with return code 0
+[2019-02-10 19:07:13,286] {logging_mixin.py:95} INFO - [2019-02-10 19:07:13,286] {jobs.py:2527} INFO - Task exited with return code 0

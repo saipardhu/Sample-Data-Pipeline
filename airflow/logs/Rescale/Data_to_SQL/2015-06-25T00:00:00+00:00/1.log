@@ -1,0 +1,25 @@
+[2019-02-10 19:34:00,644] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-25T00:00:00+00:00 [queued]>
+[2019-02-10 19:34:00,649] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-25T00:00:00+00:00 [queued]>
+[2019-02-10 19:34:00,649] {models.py:1571} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-10 19:34:00,657] {models.py:1593} INFO - Executing <Task(BashOperator): Data_to_SQL> on 2015-06-25T00:00:00+00:00
+[2019-02-10 19:34:00,657] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run Rescale Data_to_SQL 2015-06-25T00:00:00+00:00 --job_id 102 --raw -sd DAGS_FOLDER/rs-pipeline1.py --cfg_path /tmp/tmpqc4ylj5g']
+[2019-02-10 19:34:01,186] {base_task_runner.py:101} INFO - Job 102: Subtask Data_to_SQL [2019-02-10 19:34:01,186] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-10 19:34:01,337] {base_task_runner.py:101} INFO - Job 102: Subtask Data_to_SQL [2019-02-10 19:34:01,337] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:34:01,349] {base_task_runner.py:101} INFO - Job 102: Subtask Data_to_SQL [2019-02-10 19:34:01,349] {cli.py:520} INFO - Running <TaskInstance: Rescale.Data_to_SQL 2015-06-25T00:00:00+00:00 [running]> on host ip-172-31-15-235.us-east-2.compute.internal
+[2019-02-10 19:34:01,363] {bash_operator.py:77} INFO - Tmp dir root location: 
+ /tmp
+[2019-02-10 19:34:01,363] {bash_operator.py:86} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=Rescale
+AIRFLOW_CTX_TASK_ID=Data_to_SQL
+AIRFLOW_CTX_EXECUTION_DATE=2015-06-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-06-25T00:00:00+00:00
+[2019-02-10 19:34:01,363] {bash_operator.py:100} INFO - Temporary script location: /tmp/airflowtmpojgis39g/Data_to_SQL2xb53u5g
+[2019-02-10 19:34:01,363] {bash_operator.py:110} INFO - Running command: /home/ec2-user/insert_to_sql.sh 
+[2019-02-10 19:34:01,367] {bash_operator.py:119} INFO - Output:
+[2019-02-10 19:34:01,372] {bash_operator.py:123} INFO - ERROR 2 (HY000) at line 1: File '/home/ec2-user/rescale/data/*' not found (Errcode: 2 - No such file or directory)
+[2019-02-10 19:34:01,372] {bash_operator.py:127} INFO - Command exited with return code 0
+[2019-02-10 19:34:05,645] {logging_mixin.py:95} INFO - [2019-02-10 19:34:05,645] {jobs.py:2527} INFO - Task exited with return code 0

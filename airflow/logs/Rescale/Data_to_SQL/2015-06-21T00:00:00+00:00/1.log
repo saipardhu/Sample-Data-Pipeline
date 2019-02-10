@@ -1,0 +1,49 @@
+[2019-02-10 19:27:21,497] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-21T00:00:00+00:00 [queued]>
+[2019-02-10 19:27:21,501] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-21T00:00:00+00:00 [queued]>
+[2019-02-10 19:27:21,501] {models.py:1571} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-10 19:27:21,508] {models.py:1593} INFO - Executing <Task(BashOperator): Data_to_SQL> on 2015-06-21T00:00:00+00:00
+[2019-02-10 19:27:21,508] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run Rescale Data_to_SQL 2015-06-21T00:00:00+00:00 --job_id 85 --raw -sd DAGS_FOLDER/rs-pipeline1.py --cfg_path /tmp/tmp5pvbewcy']
+[2019-02-10 19:27:22,034] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL [2019-02-10 19:27:22,034] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-10 19:27:22,183] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL [2019-02-10 19:27:22,183] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:27:22,195] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL [2019-02-10 19:27:22,195] {cli.py:520} INFO - Running <TaskInstance: Rescale.Data_to_SQL 2015-06-21T00:00:00+00:00 [running]> on host ip-172-31-15-235.us-east-2.compute.internal
+[2019-02-10 19:27:22,205] {bash_operator.py:77} INFO - Tmp dir root location: 
+ /tmp
+[2019-02-10 19:27:22,205] {bash_operator.py:86} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=Rescale
+AIRFLOW_CTX_TASK_ID=Data_to_SQL
+AIRFLOW_CTX_EXECUTION_DATE=2015-06-21T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-06-21T00:00:00+00:00
+[2019-02-10 19:27:22,206] {bash_operator.py:100} INFO - Temporary script location: /tmp/airflowtmpubw3ttvq/Data_to_SQLqatwkyya
+[2019-02-10 19:27:22,206] {bash_operator.py:110} INFO - Running command: /home/ec2-user/insert_to_sql.sh 
+[2019-02-10 19:27:22,209] {bash_operator.py:119} INFO - Output:
+[2019-02-10 19:27:22,210] {bash_operator.py:123} INFO - /tmp/airflowtmpubw3ttvq/Data_to_SQLqatwkyya: line 1: /home/ec2-user/insert_to_sql.sh: Permission denied
+[2019-02-10 19:27:22,210] {bash_operator.py:127} INFO - Command exited with return code 126
+[2019-02-10 19:27:22,215] {models.py:1788} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 1657, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 131, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2019-02-10 19:27:22,216] {models.py:1811} INFO - Marking task as UP_FOR_RETRY
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL Traceback (most recent call last):
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/bin/airflow", line 32, in <module>
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     args.func(args)
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     return f(*args, **kwargs)
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/bin/cli.py", line 526, in run
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     _run(args, dag, ti)
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/bin/cli.py", line 445, in _run
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     pool=args.pool,
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-02-10 19:27:22,243] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     return func(*args, **kwargs)
+[2019-02-10 19:27:22,244] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 1657, in _run_raw_task
+[2019-02-10 19:27:22,244] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     result = task_copy.execute(context=context)
+[2019-02-10 19:27:22,244] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL   File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 131, in execute
+[2019-02-10 19:27:22,244] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL     raise AirflowException("Bash command failed")
+[2019-02-10 19:27:22,244] {base_task_runner.py:101} INFO - Job 85: Subtask Data_to_SQL airflow.exceptions.AirflowException: Bash command failed
+[2019-02-10 19:27:26,494] {logging_mixin.py:95} INFO - [2019-02-10 19:27:26,494] {jobs.py:2527} INFO - Task exited with return code 1

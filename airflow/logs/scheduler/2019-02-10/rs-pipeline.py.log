@@ -1,0 +1,2108 @@
+[2019-02-10 18:58:44,602] {jobs.py:391} INFO - Started process (PID=8383) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:58:44,604] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 18:58:44,605] {logging_mixin.py:95} INFO - [2019-02-10 18:58:44,605] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:58:44,610] {logging_mixin.py:95} INFO - [2019-02-10 18:58:44,609] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 18:58:44,611] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:58:44,623] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 18:59:28,652] {jobs.py:391} INFO - Started process (PID=8429) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:59:28,655] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 18:59:28,655] {logging_mixin.py:95} INFO - [2019-02-10 18:59:28,655] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:59:28,695] {logging_mixin.py:95} INFO - [2019-02-10 18:59:28,659] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 18:59:28,695] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 18:59:28,704] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.051 seconds
+[2019-02-10 19:00:12,704] {jobs.py:391} INFO - Started process (PID=8474) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:00:12,706] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:00:12,706] {logging_mixin.py:95} INFO - [2019-02-10 19:00:12,706] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:00:12,712] {logging_mixin.py:95} INFO - [2019-02-10 19:00:12,711] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:00:12,713] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:00:12,723] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:01:07,586] {jobs.py:391} INFO - Started process (PID=8543) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:01:07,589] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:01:07,589] {logging_mixin.py:95} INFO - [2019-02-10 19:01:07,589] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:01:07,595] {logging_mixin.py:95} INFO - [2019-02-10 19:01:07,593] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:01:07,595] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:01:07,605] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:02:02,410] {jobs.py:391} INFO - Started process (PID=8634) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:02:02,413] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:02:02,413] {logging_mixin.py:95} INFO - [2019-02-10 19:02:02,413] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:02:02,420] {logging_mixin.py:95} INFO - [2019-02-10 19:02:02,418] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:02:02,420] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:02:02,430] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:05:15,024] {jobs.py:391} INFO - Started process (PID=9800) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:05:15,027] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:05:15,027] {logging_mixin.py:95} INFO - [2019-02-10 19:05:15,027] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:05:15,035] {logging_mixin.py:95} INFO - [2019-02-10 19:05:15,034] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:05:15,036] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:05:15,046] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.022 seconds
+[2019-02-10 19:06:27,476] {jobs.py:391} INFO - Started process (PID=9877) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:06:27,478] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:06:27,478] {logging_mixin.py:95} INFO - [2019-02-10 19:06:27,478] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:06:27,519] {logging_mixin.py:95} INFO - [2019-02-10 19:06:27,518] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:06:27,519] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:06:27,528] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.053 seconds
+[2019-02-10 19:07:51,605] {jobs.py:391} INFO - Started process (PID=9957) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:07:51,608] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:07:51,608] {logging_mixin.py:95} INFO - [2019-02-10 19:07:51,608] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:07:51,614] {logging_mixin.py:95} INFO - [2019-02-10 19:07:51,613] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:07:51,615] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:07:51,624] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:09:03,930] {jobs.py:391} INFO - Started process (PID=10026) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:09:03,933] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:09:03,933] {logging_mixin.py:95} INFO - [2019-02-10 19:09:03,933] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:09:03,939] {logging_mixin.py:95} INFO - [2019-02-10 19:09:03,937] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:09:03,939] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:09:03,950] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:10:04,994] {jobs.py:391} INFO - Started process (PID=10085) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:04,996] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:10:04,997] {logging_mixin.py:95} INFO - [2019-02-10 19:10:04,997] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:05,003] {logging_mixin.py:95} INFO - [2019-02-10 19:10:05,001] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:10:05,003] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:05,014] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:10:59,805] {jobs.py:391} INFO - Started process (PID=10175) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:59,807] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:10:59,808] {logging_mixin.py:95} INFO - [2019-02-10 19:10:59,808] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:59,814] {logging_mixin.py:95} INFO - [2019-02-10 19:10:59,812] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:10:59,814] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:10:59,824] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:12:31,996] {jobs.py:391} INFO - Started process (PID=10226) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:12:31,999] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:12:31,999] {logging_mixin.py:95} INFO - [2019-02-10 19:12:31,999] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:12:32,007] {logging_mixin.py:95} INFO - [2019-02-10 19:12:32,006] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:12:32,008] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:12:32,018] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:14:02,325] {jobs.py:391} INFO - Started process (PID=10306) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:14:02,328] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:14:02,328] {logging_mixin.py:95} INFO - [2019-02-10 19:14:02,328] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:14:02,333] {logging_mixin.py:95} INFO - [2019-02-10 19:14:02,332] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:14:02,334] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:14:02,342] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.017 seconds
+[2019-02-10 19:15:20,481] {jobs.py:391} INFO - Started process (PID=10374) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:15:20,484] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:15:20,484] {logging_mixin.py:95} INFO - [2019-02-10 19:15:20,484] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:15:20,490] {logging_mixin.py:95} INFO - [2019-02-10 19:15:20,488] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:15:20,490] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:15:20,501] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:16:26,989] {jobs.py:391} INFO - Started process (PID=10436) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:16:26,991] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:16:26,992] {logging_mixin.py:95} INFO - [2019-02-10 19:16:26,992] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:16:26,998] {logging_mixin.py:95} INFO - [2019-02-10 19:16:26,996] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:16:26,998] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:16:27,008] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:17:27,656] {jobs.py:391} INFO - Started process (PID=10495) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:17:27,658] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:17:27,659] {logging_mixin.py:95} INFO - [2019-02-10 19:17:27,659] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:17:27,665] {logging_mixin.py:95} INFO - [2019-02-10 19:17:27,663] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:17:27,665] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:17:27,675] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:18:18,060] {jobs.py:391} INFO - Started process (PID=10538) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:18:18,063] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:18:18,063] {logging_mixin.py:95} INFO - [2019-02-10 19:18:18,063] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:18:18,071] {logging_mixin.py:95} INFO - [2019-02-10 19:18:18,069] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:18:18,071] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:18:18,081] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:19:24,481] {jobs.py:391} INFO - Started process (PID=10608) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:19:24,483] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:19:24,484] {logging_mixin.py:95} INFO - [2019-02-10 19:19:24,484] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:19:24,530] {logging_mixin.py:95} INFO - [2019-02-10 19:19:24,528] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:19:24,530] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:19:24,539] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.058 seconds
+[2019-02-10 19:20:37,009] {jobs.py:391} INFO - Started process (PID=10681) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:20:37,011] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:20:37,011] {logging_mixin.py:95} INFO - [2019-02-10 19:20:37,011] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:20:37,018] {logging_mixin.py:95} INFO - [2019-02-10 19:20:37,016] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:20:37,018] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:20:37,028] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:21:37,906] {jobs.py:391} INFO - Started process (PID=10744) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:21:37,909] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:21:37,909] {logging_mixin.py:95} INFO - [2019-02-10 19:21:37,909] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:21:37,915] {logging_mixin.py:95} INFO - [2019-02-10 19:21:37,914] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:21:37,915] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:21:37,926] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:22:38,609] {jobs.py:391} INFO - Started process (PID=10807) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:22:38,611] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:22:38,612] {logging_mixin.py:95} INFO - [2019-02-10 19:22:38,612] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:22:38,618] {logging_mixin.py:95} INFO - [2019-02-10 19:22:38,616] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:22:38,618] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:22:38,628] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:23:39,250] {jobs.py:391} INFO - Started process (PID=10870) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:23:39,252] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:23:39,253] {logging_mixin.py:95} INFO - [2019-02-10 19:23:39,253] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:23:39,258] {logging_mixin.py:95} INFO - [2019-02-10 19:23:39,257] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:23:39,258] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:23:39,269] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:24:34,059] {jobs.py:391} INFO - Started process (PID=10928) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:24:34,062] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:24:34,062] {logging_mixin.py:95} INFO - [2019-02-10 19:24:34,062] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:24:34,068] {logging_mixin.py:95} INFO - [2019-02-10 19:24:34,066] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:24:34,068] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:24:34,078] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 19:26:47,277] {jobs.py:391} INFO - Started process (PID=11061) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:26:47,280] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:26:47,280] {logging_mixin.py:95} INFO - [2019-02-10 19:26:47,280] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:26:47,286] {logging_mixin.py:95} INFO - [2019-02-10 19:26:47,284] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:26:47,286] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:26:47,331] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.054 seconds
+[2019-02-10 19:28:05,728] {jobs.py:391} INFO - Started process (PID=11143) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:28:05,730] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:28:05,730] {logging_mixin.py:95} INFO - [2019-02-10 19:28:05,730] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:28:05,736] {logging_mixin.py:95} INFO - [2019-02-10 19:28:05,734] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:28:05,736] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:28:05,745] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.017 seconds
+[2019-02-10 19:30:31,503] {jobs.py:391} INFO - Started process (PID=12350) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:30:31,506] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:30:31,506] {logging_mixin.py:95} INFO - [2019-02-10 19:30:31,506] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:30:31,512] {logging_mixin.py:95} INFO - [2019-02-10 19:30:31,511] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:30:31,513] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:30:31,557] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.054 seconds
+[2019-02-10 19:32:28,470] {jobs.py:391} INFO - Started process (PID=14558) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:32:28,473] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:32:28,474] {logging_mixin.py:95} INFO - [2019-02-10 19:32:28,474] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:32:28,480] {logging_mixin.py:95} INFO - [2019-02-10 19:32:28,478] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:32:28,480] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:32:28,491] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:34:14,789] {jobs.py:391} INFO - Started process (PID=16760) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:34:14,792] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:34:14,792] {logging_mixin.py:95} INFO - [2019-02-10 19:34:14,792] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:34:14,798] {logging_mixin.py:95} INFO - [2019-02-10 19:34:14,797] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:34:14,798] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:34:14,809] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:36:11,820] {jobs.py:391} INFO - Started process (PID=18969) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:36:11,823] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:36:11,824] {logging_mixin.py:95} INFO - [2019-02-10 19:36:11,823] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:36:11,830] {logging_mixin.py:95} INFO - [2019-02-10 19:36:11,828] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:36:11,830] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:36:11,840] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:37:57,795] {jobs.py:391} INFO - Started process (PID=21165) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:37:57,799] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:37:57,800] {logging_mixin.py:95} INFO - [2019-02-10 19:37:57,799] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:37:57,807] {logging_mixin.py:95} INFO - [2019-02-10 19:37:57,805] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:37:57,807] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:37:57,817] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.022 seconds
+[2019-02-10 19:39:38,647] {jobs.py:391} INFO - Started process (PID=23362) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:39:38,650] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:39:38,650] {logging_mixin.py:95} INFO - [2019-02-10 19:39:38,650] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:39:38,656] {logging_mixin.py:95} INFO - [2019-02-10 19:39:38,655] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:39:38,657] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:39:38,667] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:41:19,369] {jobs.py:391} INFO - Started process (PID=25558) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:41:19,372] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:41:19,372] {logging_mixin.py:95} INFO - [2019-02-10 19:41:19,372] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:41:19,378] {logging_mixin.py:95} INFO - [2019-02-10 19:41:19,377] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:41:19,378] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:41:19,389] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:42:55,214] {jobs.py:391} INFO - Started process (PID=27755) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:42:55,218] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:42:55,218] {logging_mixin.py:95} INFO - [2019-02-10 19:42:55,218] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:42:55,224] {logging_mixin.py:95} INFO - [2019-02-10 19:42:55,223] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:42:55,225] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:42:55,235] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:44:30,765] {jobs.py:391} INFO - Started process (PID=29961) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:44:30,769] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:44:30,769] {logging_mixin.py:95} INFO - [2019-02-10 19:44:30,769] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:44:30,775] {logging_mixin.py:95} INFO - [2019-02-10 19:44:30,774] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:44:30,776] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:44:30,786] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:45:27,067] {jobs.py:391} INFO - Started process (PID=31546) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:45:27,071] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:45:27,071] {logging_mixin.py:95} INFO - [2019-02-10 19:45:27,071] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:45:27,077] {logging_mixin.py:95} INFO - [2019-02-10 19:45:27,076] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:45:27,078] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:45:27,099] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.033 seconds
+[2019-02-10 19:46:51,469] {jobs.py:391} INFO - Started process (PID=1059) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:46:51,473] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:46:51,473] {logging_mixin.py:95} INFO - [2019-02-10 19:46:51,473] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:46:51,482] {logging_mixin.py:95} INFO - [2019-02-10 19:46:51,480] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:46:51,482] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:46:51,492] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.023 seconds
+[2019-02-10 19:48:27,458] {jobs.py:391} INFO - Started process (PID=4194) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:48:27,462] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:48:27,462] {logging_mixin.py:95} INFO - [2019-02-10 19:48:27,462] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:48:27,469] {logging_mixin.py:95} INFO - [2019-02-10 19:48:27,467] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:48:27,469] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:48:27,480] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:49:57,948] {jobs.py:391} INFO - Started process (PID=6396) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:49:57,951] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:49:57,952] {logging_mixin.py:95} INFO - [2019-02-10 19:49:57,951] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:49:57,958] {logging_mixin.py:95} INFO - [2019-02-10 19:49:57,956] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:49:57,959] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:49:57,969] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 19:51:39,205] {jobs.py:391} INFO - Started process (PID=8639) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:51:39,209] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:51:39,210] {logging_mixin.py:95} INFO - [2019-02-10 19:51:39,210] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:51:39,216] {logging_mixin.py:95} INFO - [2019-02-10 19:51:39,214] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:51:39,216] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:51:39,227] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.022 seconds
+[2019-02-10 19:53:20,484] {jobs.py:391} INFO - Started process (PID=10847) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:53:20,488] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:53:20,488] {logging_mixin.py:95} INFO - [2019-02-10 19:53:20,488] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:53:20,494] {logging_mixin.py:95} INFO - [2019-02-10 19:53:20,493] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:53:20,494] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:53:20,504] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:54:55,946] {jobs.py:391} INFO - Started process (PID=13048) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:54:55,949] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:54:55,949] {logging_mixin.py:95} INFO - [2019-02-10 19:54:55,949] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:54:55,955] {logging_mixin.py:95} INFO - [2019-02-10 19:54:55,953] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:54:55,955] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:54:55,965] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:56:31,413] {jobs.py:391} INFO - Started process (PID=15245) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:56:31,417] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:56:31,417] {logging_mixin.py:95} INFO - [2019-02-10 19:56:31,417] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:56:31,423] {logging_mixin.py:95} INFO - [2019-02-10 19:56:31,422] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:56:31,423] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:56:31,433] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:58:07,046] {jobs.py:391} INFO - Started process (PID=17442) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:58:07,050] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:58:07,050] {logging_mixin.py:95} INFO - [2019-02-10 19:58:07,050] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:58:07,056] {logging_mixin.py:95} INFO - [2019-02-10 19:58:07,055] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:58:07,056] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:58:07,066] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 19:59:37,782] {jobs.py:391} INFO - Started process (PID=18608) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:59:37,785] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 19:59:37,786] {logging_mixin.py:95} INFO - [2019-02-10 19:59:37,786] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:59:37,792] {logging_mixin.py:95} INFO - [2019-02-10 19:59:37,791] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 19:59:37,793] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 19:59:37,803] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 20:00:32,698] {jobs.py:391} INFO - Started process (PID=18666) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:00:32,702] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:00:32,702] {logging_mixin.py:95} INFO - [2019-02-10 20:00:32,702] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:00:32,708] {logging_mixin.py:95} INFO - [2019-02-10 20:00:32,707] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:00:32,708] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:00:32,719] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:01:27,665] {jobs.py:391} INFO - Started process (PID=18734) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:01:27,668] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:01:27,668] {logging_mixin.py:95} INFO - [2019-02-10 20:01:27,668] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:01:27,675] {logging_mixin.py:95} INFO - [2019-02-10 20:01:27,673] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:01:27,675] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:01:27,685] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:02:22,550] {jobs.py:391} INFO - Started process (PID=18792) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:02:22,553] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:02:22,553] {logging_mixin.py:95} INFO - [2019-02-10 20:02:22,553] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:02:22,559] {logging_mixin.py:95} INFO - [2019-02-10 20:02:22,557] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:02:22,559] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:02:22,569] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:03:17,395] {jobs.py:391} INFO - Started process (PID=18850) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:03:17,398] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:03:17,399] {logging_mixin.py:95} INFO - [2019-02-10 20:03:17,399] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:03:17,404] {logging_mixin.py:95} INFO - [2019-02-10 20:03:17,403] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:03:17,405] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:03:17,414] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 20:04:12,202] {jobs.py:391} INFO - Started process (PID=18908) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:04:12,204] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:04:12,205] {logging_mixin.py:95} INFO - [2019-02-10 20:04:12,205] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:04:12,211] {logging_mixin.py:95} INFO - [2019-02-10 20:04:12,210] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:04:12,212] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:04:12,222] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:05:12,900] {jobs.py:391} INFO - Started process (PID=18971) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:05:12,905] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:05:12,905] {logging_mixin.py:95} INFO - [2019-02-10 20:05:12,905] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:05:12,912] {logging_mixin.py:95} INFO - [2019-02-10 20:05:12,909] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:05:12,912] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:05:12,922] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.022 seconds
+[2019-02-10 20:06:13,610] {jobs.py:391} INFO - Started process (PID=19034) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:06:13,613] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:06:13,613] {logging_mixin.py:95} INFO - [2019-02-10 20:06:13,613] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:06:13,620] {logging_mixin.py:95} INFO - [2019-02-10 20:06:13,618] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:06:13,620] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:06:13,630] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:07:14,443] {jobs.py:391} INFO - Started process (PID=19099) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:07:14,446] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:07:14,446] {logging_mixin.py:95} INFO - [2019-02-10 20:07:14,446] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:07:14,453] {logging_mixin.py:95} INFO - [2019-02-10 20:07:14,451] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:07:14,453] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:07:14,463] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:08:15,986] {jobs.py:391} INFO - Started process (PID=19165) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:08:15,989] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:08:15,990] {logging_mixin.py:95} INFO - [2019-02-10 20:08:15,990] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:08:15,997] {logging_mixin.py:95} INFO - [2019-02-10 20:08:15,995] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:08:15,998] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:08:16,008] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.022 seconds
+[2019-02-10 20:09:16,669] {jobs.py:391} INFO - Started process (PID=19226) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:09:16,672] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:09:16,672] {logging_mixin.py:95} INFO - [2019-02-10 20:09:16,672] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:09:16,678] {logging_mixin.py:95} INFO - [2019-02-10 20:09:16,676] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:09:16,678] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:09:16,689] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:10:11,646] {jobs.py:391} INFO - Started process (PID=19282) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:10:11,649] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:10:11,649] {logging_mixin.py:95} INFO - [2019-02-10 20:10:11,649] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:10:11,655] {logging_mixin.py:95} INFO - [2019-02-10 20:10:11,654] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:10:11,655] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:10:11,666] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds
+[2019-02-10 20:11:06,473] {jobs.py:391} INFO - Started process (PID=19339) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:11:06,476] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:11:06,476] {logging_mixin.py:95} INFO - [2019-02-10 20:11:06,476] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:11:06,482] {logging_mixin.py:95} INFO - [2019-02-10 20:11:06,481] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:11:06,482] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:11:06,492] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:12:01,324] {jobs.py:391} INFO - Started process (PID=19395) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:01,327] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:12:01,328] {logging_mixin.py:95} INFO - [2019-02-10 20:12:01,328] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:01,338] {logging_mixin.py:95} INFO - [2019-02-10 20:12:01,337] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:12:01,339] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:01,359] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.035 seconds
+[2019-02-10 20:12:56,136] {jobs.py:391} INFO - Started process (PID=19457) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:56,139] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:12:56,139] {logging_mixin.py:95} INFO - [2019-02-10 20:12:56,139] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:56,145] {logging_mixin.py:95} INFO - [2019-02-10 20:12:56,144] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:12:56,146] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:12:56,157] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.021 seconds
+[2019-02-10 20:13:51,104] {jobs.py:391} INFO - Started process (PID=19516) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:13:51,107] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:13:51,107] {logging_mixin.py:95} INFO - [2019-02-10 20:13:51,107] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:13:51,114] {logging_mixin.py:95} INFO - [2019-02-10 20:13:51,112] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:13:51,114] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:13:51,124] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:14:51,767] {jobs.py:391} INFO - Started process (PID=19577) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:14:51,770] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:14:51,770] {logging_mixin.py:95} INFO - [2019-02-10 20:14:51,770] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:14:51,776] {logging_mixin.py:95} INFO - [2019-02-10 20:14:51,774] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:14:51,776] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:14:51,786] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:15:46,732] {jobs.py:391} INFO - Started process (PID=19633) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:15:46,735] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:15:46,735] {logging_mixin.py:95} INFO - [2019-02-10 20:15:46,735] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:15:46,741] {logging_mixin.py:95} INFO - [2019-02-10 20:15:46,740] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:15:46,742] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:15:46,752] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.020 seconds
+[2019-02-10 20:16:41,575] {jobs.py:391} INFO - Started process (PID=19723) to work on /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:16:41,577] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline.py for tasks to queue
+[2019-02-10 20:16:41,578] {logging_mixin.py:95} INFO - [2019-02-10 20:16:41,578] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:16:41,584] {logging_mixin.py:95} INFO - [2019-02-10 20:16:41,582] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/rs-pipeline.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/rs-pipeline.py", line 5, in <module>
+    from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, BashOperator, PythonOperator
+  File "<frozen importlib._bootstrap>", line 1032, in _handle_fromlist
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 382, in __getattr__
+    loaded_attribute = self._load_attribute(attribute)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/utils/helpers.py", line 346, in _load_attribute
+    self._loaded_modules[module] = imp.load_module(module, f, filename, description)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/operators/http_operator.py", line 21, in <module>
+    from airflow.hooks.http_hook import HttpHook
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/hooks/http_hook.py", line 23, in <module>
+    import tenacity
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/tenacity/__init__.py", line 352
+    from tenacity.async import AsyncRetrying
+                      ^
+SyntaxError: invalid syntax
+[2019-02-10 20:16:41,584] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/rs-pipeline.py
+[2019-02-10 20:16:41,594] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline.py took 0.019 seconds

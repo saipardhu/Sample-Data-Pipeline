@@ -1,0 +1,1180 @@
+[2019-02-10 18:58:54,615] {jobs.py:391} INFO - Started process (PID=8394) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:58:54,618] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 18:58:54,618] {logging_mixin.py:95} INFO - [2019-02-10 18:58:54,618] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:58:54,625] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:58:54,631] {logging_mixin.py:95} INFO - [2019-02-10 18:58:54,631] {models.py:4409} INFO - Creating ORM DAG for Rescale
+[2019-02-10 18:58:54,676] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.060 seconds
+[2019-02-10 18:59:38,664] {jobs.py:391} INFO - Started process (PID=8439) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:59:38,666] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 18:59:38,667] {logging_mixin.py:95} INFO - [2019-02-10 18:59:38,667] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:59:38,705] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 18:59:38,722] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.058 seconds
+[2019-02-10 19:00:22,713] {jobs.py:391} INFO - Started process (PID=8486) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:00:22,715] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:00:22,716] {logging_mixin.py:95} INFO - [2019-02-10 19:00:22,715] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:00:22,720] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:00:22,739] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:00:22,769] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-01T00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:00:22,771] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:00:22,776] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:00:22,793] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:00:22,805] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:00:22,807] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 18:55:59.679222+00:00 [scheduled]> in ORM
+[2019-02-10 19:00:22,815] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.102 seconds
+[2019-02-10 19:01:17,597] {jobs.py:391} INFO - Started process (PID=8553) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:01:17,600] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:01:17,600] {logging_mixin.py:95} INFO - [2019-02-10 19:01:17,600] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:01:17,604] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:01:17,623] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:01:17,654] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:01:17,656] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:01:17,661] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:01:17,667] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:01:17,673] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:01:17,700] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:01:17,712] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:01:17,715] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:00:25.861670+00:00 [scheduled]> in ORM
+[2019-02-10 19:01:17,722] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.126 seconds
+[2019-02-10 19:02:12,422] {jobs.py:391} INFO - Started process (PID=8644) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:02:12,424] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:02:12,424] {logging_mixin.py:95} INFO - [2019-02-10 19:02:12,424] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:02:12,429] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:02:12,448] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:02:12,478] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:02:12,480] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:02:12,485] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:02:12,491] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:02:12,497] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:02:12,503] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:02:12,534] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:02:12,546] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:02:12,554] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.132 seconds
+[2019-02-10 19:04:12,960] {jobs.py:391} INFO - Started process (PID=8710) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:04:12,995] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:04:12,995] {logging_mixin.py:95} INFO - [2019-02-10 19:04:12,995] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:04:13,001] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:04:13,058] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:04:13,089] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:04:13,091] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:04:13,096] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:04:13,102] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:04:13,108] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:04:13,113] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:04:13,119] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:04:13,154] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:04:13,166] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-04 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:04:13,174] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.214 seconds
+[2019-02-10 19:05:47,056] {jobs.py:391} INFO - Started process (PID=9833) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:05:47,058] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:05:47,059] {logging_mixin.py:95} INFO - [2019-02-10 19:05:47,058] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:05:47,101] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:05:47,121] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:05:47,150] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,153] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,158] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,164] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,170] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,178] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:05:47,184] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:05:47,190] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:05:47,196] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:05:47,242] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:05:47,254] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:05:47,257] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-04 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:05:47,259] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-05 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:05:47,262] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 18:55:59.679222+00:00 [scheduled]> in ORM
+[2019-02-10 19:05:47,264] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:04:17.338164+00:00 [scheduled]> in ORM
+[2019-02-10 19:05:47,272] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.217 seconds
+[2019-02-10 19:06:59,510] {jobs.py:391} INFO - Started process (PID=9910) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:06:59,513] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:06:59,513] {logging_mixin.py:95} INFO - [2019-02-10 19:06:59,513] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:06:59,518] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:06:59,538] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:06:59,568] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,570] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,579] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,585] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,590] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,599] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,607] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:06:59,613] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:06:59,621] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:06:59,628] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:06:59,680] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:06:59,692] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,695] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,698] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-05 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,701] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-06 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,703] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 18:55:59.679222+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,706] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:00:25.861670+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,709] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:04:17.338164+00:00 [scheduled]> in ORM
+[2019-02-10 19:06:59,716] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.206 seconds
+[2019-02-10 19:08:23,645] {jobs.py:391} INFO - Started process (PID=9990) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:08:23,648] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:08:23,648] {logging_mixin.py:95} INFO - [2019-02-10 19:08:23,648] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:08:23,653] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:08:23,673] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:08:23,704] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,706] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,714] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,723] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,729] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,737] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,746] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,755] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:08:23,761] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:08:23,769] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:08:23,777] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:08:23,835] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:08:23,847] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:08:23,850] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:08:23,852] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-06 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:08:23,855] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-07 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:08:23,857] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:00:25.861670+00:00 [scheduled]> in ORM
+[2019-02-10 19:08:23,866] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.221 seconds
+[2019-02-10 19:09:35,970] {jobs.py:391} INFO - Started process (PID=10059) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:09:35,972] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:09:35,973] {logging_mixin.py:95} INFO - [2019-02-10 19:09:35,972] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:09:35,977] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:09:35,996] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:09:36,027] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,029] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,037] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,046] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,054] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,063] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,072] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,080] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,088] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:09:36,094] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:09:36,102] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:09:36,110] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:09:36,171] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:09:36,184] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:09:36,187] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-07 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:09:36,189] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-08 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:09:36,196] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.227 seconds
+[2019-02-10 19:10:37,034] {jobs.py:391} INFO - Started process (PID=10152) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:10:37,037] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:10:37,037] {logging_mixin.py:95} INFO - [2019-02-10 19:10:37,037] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:10:37,042] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:10:37,061] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:10:37,091] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,093] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,101] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,109] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,118] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,126] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,135] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,143] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,151] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,160] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:10:37,166] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:10:37,174] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:10:37,182] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:10:37,250] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:10:37,262] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-08 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:10:37,265] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-09 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:10:37,272] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.238 seconds
+[2019-02-10 19:12:48,014] {jobs.py:391} INFO - Started process (PID=10242) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:12:48,017] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:12:48,017] {logging_mixin.py:95} INFO - [2019-02-10 19:12:48,017] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:12:48,022] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:12:48,073] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:12:48,102] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,104] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,112] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,121] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,129] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,137] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,146] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,154] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,162] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,171] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,179] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:12:48,185] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:12:48,194] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:12:48,202] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:12:48,210] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:12:48,285] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:12:48,297] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,300] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-04 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,303] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-05 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,305] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-09 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,308] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-10 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,311] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 18:55:59.679222+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,313] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:04:17.338164+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,316] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:12:16.630540+00:00 [scheduled]> in ORM
+[2019-02-10 19:12:48,324] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.309 seconds
+[2019-02-10 19:14:18,307] {jobs.py:391} INFO - Started process (PID=10322) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:14:18,309] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:14:18,310] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,310] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:14:18,315] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:14:18,334] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:14:18,365] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,367] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,372] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,372] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-01 00:00:00+00:00: scheduled__2015-06-01T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:14:18,378] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,387] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,395] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,401] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,401] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-04 00:00:00+00:00: scheduled__2015-06-04T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:14:18,406] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,412] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,412] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-05 00:00:00+00:00: scheduled__2015-06-05T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:14:18,417] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,426] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,434] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,443] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,451] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,460] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:14:18,466] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True>
+[2019-02-10 19:14:18,472] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,472] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2019-02-10 18:55:59.679222+00:00: manual__2019-02-10T18:55:59.679222+00:00, externally triggered: True> failed
+[2019-02-10 19:14:18,477] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:14:18,485] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True>
+[2019-02-10 19:14:18,491] {logging_mixin.py:95} INFO - [2019-02-10 19:14:18,491] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:04:17.338164+00:00: manual__2019-02-10T19:04:17.338164+00:00, externally triggered: True> failed
+[2019-02-10 19:14:18,496] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:14:18,554] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:14:18,566] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,569] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-06 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,571] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-10 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,574] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,577] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:00:25.861670+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,579] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:12:16.630540+00:00 [scheduled]> in ORM
+[2019-02-10 19:14:18,587] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.281 seconds
+[2019-02-10 19:15:36,503] {jobs.py:391} INFO - Started process (PID=10391) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:15:36,506] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:15:36,506] {logging_mixin.py:95} INFO - [2019-02-10 19:15:36,506] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:15:36,511] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:15:36,530] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:15:36,561] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,563] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,568] {logging_mixin.py:95} INFO - [2019-02-10 19:15:36,568] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-02 00:00:00+00:00: scheduled__2015-06-02T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:15:36,574] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,583] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,588] {logging_mixin.py:95} INFO - [2019-02-10 19:15:36,588] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-06 00:00:00+00:00: scheduled__2015-06-06T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:15:36,593] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,602] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,610] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,619] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,627] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,635] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:15:36,641] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True>
+[2019-02-10 19:15:36,646] {logging_mixin.py:95} INFO - [2019-02-10 19:15:36,646] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:00:25.861670+00:00: manual__2019-02-10T19:00:25.861670+00:00, externally triggered: True> failed
+[2019-02-10 19:15:36,651] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:15:36,697] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:15:36,709] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:15:36,712] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-07 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:15:36,715] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:15:36,717] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:15:36,725] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.222 seconds
+[2019-02-10 19:16:43,010] {jobs.py:391} INFO - Started process (PID=10453) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:16:43,013] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:16:43,013] {logging_mixin.py:95} INFO - [2019-02-10 19:16:43,013] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:16:43,018] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:16:43,038] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:16:43,068] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,070] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,075] {logging_mixin.py:95} INFO - [2019-02-10 19:16:43,075] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-03 00:00:00+00:00: scheduled__2015-06-03T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:16:43,081] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,087] {logging_mixin.py:95} INFO - [2019-02-10 19:16:43,087] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-07 00:00:00+00:00: scheduled__2015-06-07T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:16:43,092] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,101] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,110] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,118] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,127] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,135] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:16:43,141] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:16:43,183] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:16:43,196] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-08 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:16:43,198] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:16:43,201] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:16:43,209] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.199 seconds
+[2019-02-10 19:17:55,206] {jobs.py:391} INFO - Started process (PID=10512) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:17:55,208] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:17:55,208] {logging_mixin.py:95} INFO - [2019-02-10 19:17:55,208] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:17:55,213] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:17:55,234] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:17:55,294] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,296] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,301] {logging_mixin.py:95} INFO - [2019-02-10 19:17:55,301] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-08 00:00:00+00:00: scheduled__2015-06-08T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:17:55,307] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,315] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,324] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,332] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,340] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,349] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:17:55,355] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:17:55,398] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:17:55,410] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:17:55,413] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:17:55,420] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.214 seconds
+[2019-02-10 19:18:50,099] {jobs.py:391} INFO - Started process (PID=10571) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:18:50,101] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:18:50,101] {logging_mixin.py:95} INFO - [2019-02-10 19:18:50,101] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:18:50,139] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:18:50,157] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:18:50,186] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,188] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,196] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,205] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,213] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,221] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,229] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,238] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:18:50,244] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:18:50,252] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:18:50,302] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:18:50,314] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-09 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:18:50,317] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:18:50,319] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:18:50,322] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:18:06.901414+00:00 [scheduled]> in ORM
+[2019-02-10 19:18:50,329] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.231 seconds
+[2019-02-10 19:19:56,516] {jobs.py:391} INFO - Started process (PID=10641) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:19:56,519] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:19:56,519] {logging_mixin.py:95} INFO - [2019-02-10 19:19:56,519] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:19:56,522] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:19:56,542] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:19:56,572] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,574] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,579] {logging_mixin.py:95} INFO - [2019-02-10 19:19:56,579] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-09 00:00:00+00:00: scheduled__2015-06-09T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:19:56,585] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,594] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,602] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,610] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,619] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,627] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,637] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:19:56,642] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:19:56,651] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:19:56,703] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:19:56,715] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-10 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:19:56,719] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:19:56,721] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:19:56,724] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:12:16.630540+00:00 [scheduled]> in ORM
+[2019-02-10 19:19:56,726] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:18:06.901414+00:00 [scheduled]> in ORM
+[2019-02-10 19:19:56,734] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.218 seconds
+[2019-02-10 19:21:09,049] {jobs.py:391} INFO - Started process (PID=10714) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:21:09,052] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:21:09,052] {logging_mixin.py:95} INFO - [2019-02-10 19:21:09,052] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:21:09,056] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:21:09,075] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:21:09,106] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,108] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,113] {logging_mixin.py:95} INFO - [2019-02-10 19:21:09,113] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-10 00:00:00+00:00: scheduled__2015-06-10T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:21:09,119] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,128] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,136] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,145] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,153] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,163] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,171] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:21:09,177] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True>
+[2019-02-10 19:21:09,182] {logging_mixin.py:95} INFO - [2019-02-10 19:21:09,182] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:12:16.630540+00:00: manual__2019-02-10T19:12:16.630540+00:00, externally triggered: True> failed
+[2019-02-10 19:21:09,188] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:21:09,236] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:21:09,248] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:21:09,251] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:21:09,253] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:21:09,262] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.213 seconds
+[2019-02-10 19:22:09,946] {jobs.py:391} INFO - Started process (PID=10777) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:22:09,949] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:22:09,949] {logging_mixin.py:95} INFO - [2019-02-10 19:22:09,949] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:22:09,953] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:22:09,972] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:22:10,004] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,006] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,012] {logging_mixin.py:95} INFO - [2019-02-10 19:22:10,012] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-11 00:00:00+00:00: scheduled__2015-06-11T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:22:10,019] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,029] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,038] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,047] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,056] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,064] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,072] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:22:10,078] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:22:10,126] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:22:10,140] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:22:10,143] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:22:10,146] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:22:10,153] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.208 seconds
+[2019-02-10 19:23:10,649] {jobs.py:391} INFO - Started process (PID=10840) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:23:10,652] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:23:10,652] {logging_mixin.py:95} INFO - [2019-02-10 19:23:10,652] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:23:10,656] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:23:10,676] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:23:10,706] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,708] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,713] {logging_mixin.py:95} INFO - [2019-02-10 19:23:10,713] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-12 00:00:00+00:00: scheduled__2015-06-12T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:23:10,719] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,728] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,736] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,745] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,754] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,762] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,770] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:23:10,776] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:23:10,825] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:23:10,837] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:23:10,840] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:23:10,842] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:23:10,850] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.201 seconds
+[2019-02-10 19:24:11,288] {jobs.py:391} INFO - Started process (PID=10903) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:24:11,291] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:24:11,292] {logging_mixin.py:95} INFO - [2019-02-10 19:24:11,292] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:24:11,295] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:24:11,315] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:24:11,344] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,347] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,352] {logging_mixin.py:95} INFO - [2019-02-10 19:24:11,352] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-13 00:00:00+00:00: scheduled__2015-06-13T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:24:11,358] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,366] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,376] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,384] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,392] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,401] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,409] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:24:11,415] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:24:11,463] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:24:11,474] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:24:11,477] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:24:11,485] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.197 seconds
+[2019-02-10 19:25:06,098] {jobs.py:391} INFO - Started process (PID=10961) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:25:06,101] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:25:06,101] {logging_mixin.py:95} INFO - [2019-02-10 19:25:06,101] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:25:06,105] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:25:06,125] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:25:06,156] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,158] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,167] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,176] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,184] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,193] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,201] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,209] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,218] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:25:06,224] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:25:06,275] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:25:06,288] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:25:06,291] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:25:06,294] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:25:06,302] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.204 seconds
+[2019-02-10 19:26:49,279] {jobs.py:391} INFO - Started process (PID=11063) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:26:49,282] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:26:49,282] {logging_mixin.py:95} INFO - [2019-02-10 19:26:49,282] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:26:49,286] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:26:49,339] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:26:49,369] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,371] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,376] {logging_mixin.py:95} INFO - [2019-02-10 19:26:49,376] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-14 00:00:00+00:00: scheduled__2015-06-14T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:26:49,381] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,390] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,398] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,406] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,415] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,423] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,431] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,439] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:26:49,446] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:26:49,454] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:26:49,508] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:26:49,520] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,523] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,526] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,528] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-22 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,531] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:18:06.901414+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,533] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:26:20.406189+00:00 [scheduled]> in ORM
+[2019-02-10 19:26:49,542] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.263 seconds
+[2019-02-10 19:28:07,713] {jobs.py:391} INFO - Started process (PID=11145) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:28:07,716] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:28:07,716] {logging_mixin.py:95} INFO - [2019-02-10 19:28:07,716] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:28:07,720] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:28:07,740] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:28:07,772] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-23 00:00:00+00:00: scheduled__2015-06-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,774] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,780] {logging_mixin.py:95} INFO - [2019-02-10 19:28:07,780] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-15 00:00:00+00:00: scheduled__2015-06-15T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:28:07,786] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,791] {logging_mixin.py:95} INFO - [2019-02-10 19:28:07,791] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-16 00:00:00+00:00: scheduled__2015-06-16T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:28:07,797] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,806] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,814] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,823] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,831] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,840] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,849] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-23 00:00:00+00:00: scheduled__2015-06-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:28:07,855] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True>
+[2019-02-10 19:28:07,860] {logging_mixin.py:95} INFO - [2019-02-10 19:28:07,860] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:18:06.901414+00:00: manual__2019-02-10T19:18:06.901414+00:00, externally triggered: True> failed
+[2019-02-10 19:28:07,867] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:28:07,916] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:28:07,928] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:28:07,931] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-22 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:28:07,933] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-23 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:28:07,936] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:26:20.406189+00:00 [scheduled]> in ORM
+[2019-02-10 19:28:07,944] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.231 seconds
+[2019-02-10 19:29:45,418] {jobs.py:391} INFO - Started process (PID=11237) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:29:45,420] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:29:45,421] {logging_mixin.py:95} INFO - [2019-02-10 19:29:45,421] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:29:45,426] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:29:45,478] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:29:45,508] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-24 00:00:00+00:00: scheduled__2015-06-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,510] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,515] {logging_mixin.py:95} INFO - [2019-02-10 19:29:45,515] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-06-17 00:00:00+00:00: scheduled__2015-06-17T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 19:29:45,521] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,530] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,538] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,547] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,555] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,564] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-23 00:00:00+00:00: scheduled__2015-06-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,572] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-24 00:00:00+00:00: scheduled__2015-06-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:29:45,578] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:29:45,586] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:29:35.131814+00:00: manual__2019-02-10T19:29:35.131814+00:00, externally triggered: True>
+[2019-02-10 19:29:45,637] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:29:45,649] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:29:45,652] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:29:45,654] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-23 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:29:45,657] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-24 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:29:45,659] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2019-02-10 19:29:35.131814+00:00 [scheduled]> in ORM
+[2019-02-10 19:29:45,667] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.249 seconds
+[2019-02-10 19:31:03,540] {jobs.py:391} INFO - Started process (PID=12383) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:31:03,579] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:31:03,579] {logging_mixin.py:95} INFO - [2019-02-10 19:31:03,579] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:31:03,582] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:31:03,599] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:31:03,630] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-25 00:00:00+00:00: scheduled__2015-06-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,632] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,638] {logging_mixin.py:95} INFO - [2019-02-10 19:31:03,638] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-18 00:00:00+00:00: scheduled__2015-06-18T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:31:03,644] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,650] {logging_mixin.py:95} INFO - [2019-02-10 19:31:03,650] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-19 00:00:00+00:00: scheduled__2015-06-19T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:31:03,655] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,664] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,672] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,681] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-23 00:00:00+00:00: scheduled__2015-06-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,686] {logging_mixin.py:95} INFO - [2019-02-10 19:31:03,686] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-23 00:00:00+00:00: scheduled__2015-06-23T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:31:03,693] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-24 00:00:00+00:00: scheduled__2015-06-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,702] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-25 00:00:00+00:00: scheduled__2015-06-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:31:03,709] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:31:03,717] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:29:35.131814+00:00: manual__2019-02-10T19:29:35.131814+00:00, externally triggered: True>
+[2019-02-10 19:31:03,759] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:31:03,771] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:31:03,773] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-24 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:31:03,776] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-25 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:31:03,779] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:29:35.131814+00:00 [scheduled]> in ORM
+[2019-02-10 19:31:03,787] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.246 seconds
+[2019-02-10 19:33:00,505] {jobs.py:391} INFO - Started process (PID=14591) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:33:00,508] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:33:00,508] {logging_mixin.py:95} INFO - [2019-02-10 19:33:00,508] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:33:00,512] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:33:00,533] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:33:00,563] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-26 00:00:00+00:00: scheduled__2015-06-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,565] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,571] {logging_mixin.py:95} INFO - [2019-02-10 19:33:00,571] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-20 00:00:00+00:00: scheduled__2015-06-20T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:33:00,576] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,585] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,594] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-24 00:00:00+00:00: scheduled__2015-06-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,600] {logging_mixin.py:95} INFO - [2019-02-10 19:33:00,600] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-24 00:00:00+00:00: scheduled__2015-06-24T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:33:00,606] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-25 00:00:00+00:00: scheduled__2015-06-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,614] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-26 00:00:00+00:00: scheduled__2015-06-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:33:00,620] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:33:00,630] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:29:35.131814+00:00: manual__2019-02-10T19:29:35.131814+00:00, externally triggered: True>
+[2019-02-10 19:33:00,635] {logging_mixin.py:95} INFO - [2019-02-10 19:33:00,635] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:29:35.131814+00:00: manual__2019-02-10T19:29:35.131814+00:00, externally triggered: True> successful
+[2019-02-10 19:33:00,666] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:33:00,678] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:33:00,682] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-25 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:33:00,684] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-26 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:33:00,692] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.187 seconds
+[2019-02-10 19:34:46,828] {jobs.py:391} INFO - Started process (PID=16793) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:34:46,832] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:34:46,832] {logging_mixin.py:95} INFO - [2019-02-10 19:34:46,832] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:34:46,836] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:34:46,855] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:34:46,886] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-27 00:00:00+00:00: scheduled__2015-06-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,888] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,893] {logging_mixin.py:95} INFO - [2019-02-10 19:34:46,893] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-21 00:00:00+00:00: scheduled__2015-06-21T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:34:46,899] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,908] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-25 00:00:00+00:00: scheduled__2015-06-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,913] {logging_mixin.py:95} INFO - [2019-02-10 19:34:46,913] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-25 00:00:00+00:00: scheduled__2015-06-25T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:34:46,919] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-26 00:00:00+00:00: scheduled__2015-06-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,927] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-27 00:00:00+00:00: scheduled__2015-06-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:34:46,933] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:34:46,963] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:34:46,975] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-22 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:34:46,978] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-26 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:34:46,981] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-27 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:34:46,984] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2019-02-10 19:26:20.406189+00:00 [scheduled]> in ORM
+[2019-02-10 19:34:46,992] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.164 seconds
+[2019-02-10 19:36:43,860] {jobs.py:391} INFO - Started process (PID=19002) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:36:43,863] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:36:43,863] {logging_mixin.py:95} INFO - [2019-02-10 19:36:43,863] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:36:43,867] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:36:43,886] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:36:43,917] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-28 00:00:00+00:00: scheduled__2015-06-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:36:43,920] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:36:43,925] {logging_mixin.py:95} INFO - [2019-02-10 19:36:43,925] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-22 00:00:00+00:00: scheduled__2015-06-22T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:36:43,930] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-26 00:00:00+00:00: scheduled__2015-06-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:36:43,936] {logging_mixin.py:95} INFO - [2019-02-10 19:36:43,936] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-26 00:00:00+00:00: scheduled__2015-06-26T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:36:43,941] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-27 00:00:00+00:00: scheduled__2015-06-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:36:43,950] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-28 00:00:00+00:00: scheduled__2015-06-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:36:43,956] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True>
+[2019-02-10 19:36:43,963] {logging_mixin.py:95} INFO - [2019-02-10 19:36:43,963] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2019-02-10 19:26:20.406189+00:00: manual__2019-02-10T19:26:20.406189+00:00, externally triggered: True> successful
+[2019-02-10 19:36:43,979] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:36:43,991] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-27 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:36:43,994] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-28 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:36:44,002] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.142 seconds
+[2019-02-10 19:38:29,835] {jobs.py:391} INFO - Started process (PID=21198) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:38:29,838] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:38:29,839] {logging_mixin.py:95} INFO - [2019-02-10 19:38:29,839] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:38:29,843] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:38:29,862] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:38:29,895] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-29 00:00:00+00:00: scheduled__2015-06-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:38:29,897] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-27 00:00:00+00:00: scheduled__2015-06-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:38:29,902] {logging_mixin.py:95} INFO - [2019-02-10 19:38:29,902] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-27 00:00:00+00:00: scheduled__2015-06-27T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:38:29,908] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-28 00:00:00+00:00: scheduled__2015-06-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:38:29,917] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-29 00:00:00+00:00: scheduled__2015-06-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:38:29,934] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:38:29,945] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-28 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:38:29,948] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-29 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:38:29,955] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.120 seconds
+[2019-02-10 19:40:10,683] {jobs.py:391} INFO - Started process (PID=23395) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:40:10,687] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:40:10,687] {logging_mixin.py:95} INFO - [2019-02-10 19:40:10,687] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:40:10,691] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:40:10,711] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:40:10,741] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-06-30 00:00:00+00:00: scheduled__2015-06-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:40:10,744] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-28 00:00:00+00:00: scheduled__2015-06-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:40:10,749] {logging_mixin.py:95} INFO - [2019-02-10 19:40:10,749] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-28 00:00:00+00:00: scheduled__2015-06-28T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:40:10,754] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-29 00:00:00+00:00: scheduled__2015-06-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:40:10,764] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-30 00:00:00+00:00: scheduled__2015-06-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:40:10,780] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:40:10,791] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-29 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:40:10,794] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-06-30 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:40:10,802] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.118 seconds
+[2019-02-10 19:41:51,408] {jobs.py:391} INFO - Started process (PID=25592) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:41:51,412] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:41:51,412] {logging_mixin.py:95} INFO - [2019-02-10 19:41:51,412] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:41:51,416] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:41:51,435] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:41:51,467] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-01 00:00:00+00:00: scheduled__2015-07-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:41:51,470] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-29 00:00:00+00:00: scheduled__2015-06-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:41:51,476] {logging_mixin.py:95} INFO - [2019-02-10 19:41:51,476] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-29 00:00:00+00:00: scheduled__2015-06-29T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:41:51,481] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-30 00:00:00+00:00: scheduled__2015-06-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:41:51,490] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-01 00:00:00+00:00: scheduled__2015-07-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:41:51,507] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:41:51,518] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-06-30 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:41:51,525] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:41:51,533] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.124 seconds
+[2019-02-10 19:43:27,254] {jobs.py:391} INFO - Started process (PID=27789) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:43:27,258] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:43:27,258] {logging_mixin.py:95} INFO - [2019-02-10 19:43:27,258] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:43:27,261] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:43:27,280] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:43:27,315] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-02 00:00:00+00:00: scheduled__2015-07-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:43:27,317] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-06-30 00:00:00+00:00: scheduled__2015-06-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:43:27,322] {logging_mixin.py:95} INFO - [2019-02-10 19:43:27,322] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-06-30 00:00:00+00:00: scheduled__2015-06-30T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:43:27,328] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-01 00:00:00+00:00: scheduled__2015-07-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:43:27,337] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-02 00:00:00+00:00: scheduled__2015-07-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:43:27,353] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:43:27,365] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-01 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:43:27,368] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:43:27,375] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.121 seconds
+[2019-02-10 19:45:02,802] {jobs.py:391} INFO - Started process (PID=30195) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:02,805] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:45:02,806] {logging_mixin.py:95} INFO - [2019-02-10 19:45:02,806] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:02,809] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:02,831] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:45:02,874] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:02,876] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-01 00:00:00+00:00: scheduled__2015-07-01T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:02,881] {logging_mixin.py:95} INFO - [2019-02-10 19:45:02,881] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-01 00:00:00+00:00: scheduled__2015-07-01T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:45:02,888] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-02 00:00:00+00:00: scheduled__2015-07-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:02,898] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:02,923] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:45:02,937] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-02 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:45:02,940] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:45:02,948] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.146 seconds
+[2019-02-10 19:45:59,103] {jobs.py:391} INFO - Started process (PID=32201) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:59,106] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:45:59,107] {logging_mixin.py:95} INFO - [2019-02-10 19:45:59,107] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:59,110] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:45:59,130] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:45:59,161] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-04 00:00:00+00:00: scheduled__2015-07-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:59,163] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-02 00:00:00+00:00: scheduled__2015-07-02T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:59,169] {logging_mixin.py:95} INFO - [2019-02-10 19:45:59,169] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-02 00:00:00+00:00: scheduled__2015-07-02T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:45:59,174] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:59,180] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-04 00:00:00+00:00: scheduled__2015-07-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:45:59,197] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:45:59,209] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-04 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:45:59,217] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.115 seconds
+[2019-02-10 19:47:23,509] {jobs.py:391} INFO - Started process (PID=1950) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:47:23,512] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:47:23,512] {logging_mixin.py:95} INFO - [2019-02-10 19:47:23,512] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:47:23,515] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:47:23,535] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:47:23,567] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-05 00:00:00+00:00: scheduled__2015-07-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:47:23,569] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:47:23,574] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-04 00:00:00+00:00: scheduled__2015-07-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:47:23,583] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-05 00:00:00+00:00: scheduled__2015-07-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:47:23,604] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:47:23,617] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-04 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:47:23,620] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-05 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:47:23,627] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.118 seconds
+[2019-02-10 19:48:59,498] {jobs.py:391} INFO - Started process (PID=4231) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:48:59,501] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:48:59,501] {logging_mixin.py:95} INFO - [2019-02-10 19:48:59,501] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:48:59,505] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:48:59,523] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:48:59,554] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-06 00:00:00+00:00: scheduled__2015-07-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:48:59,556] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:48:59,562] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-04 00:00:00+00:00: scheduled__2015-07-04T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:48:59,567] {logging_mixin.py:95} INFO - [2019-02-10 19:48:59,567] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-04 00:00:00+00:00: scheduled__2015-07-04T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:48:59,573] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-05 00:00:00+00:00: scheduled__2015-07-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:48:59,582] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-06 00:00:00+00:00: scheduled__2015-07-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:48:59,604] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:48:59,615] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-05 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:48:59,618] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-06 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:48:59,625] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.128 seconds
+[2019-02-10 19:50:29,983] {jobs.py:391} INFO - Started process (PID=6430) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:50:29,986] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:50:29,986] {logging_mixin.py:95} INFO - [2019-02-10 19:50:29,986] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:50:29,990] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:50:30,029] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:50:30,063] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-07 00:00:00+00:00: scheduled__2015-07-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:50:30,065] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:50:30,071] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-05 00:00:00+00:00: scheduled__2015-07-05T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:50:30,077] {logging_mixin.py:95} INFO - [2019-02-10 19:50:30,077] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-05 00:00:00+00:00: scheduled__2015-07-05T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:50:30,083] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-06 00:00:00+00:00: scheduled__2015-07-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:50:30,092] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-07 00:00:00+00:00: scheduled__2015-07-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:50:30,113] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:50:30,124] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:50:30,127] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-06 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:50:30,130] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-07 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:50:30,137] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.154 seconds
+[2019-02-10 19:52:11,245] {jobs.py:391} INFO - Started process (PID=8672) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:52:11,248] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:52:11,248] {logging_mixin.py:95} INFO - [2019-02-10 19:52:11,248] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:52:11,253] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:52:11,273] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:52:11,305] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-08 00:00:00+00:00: scheduled__2015-07-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:52:11,307] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:52:11,315] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-06 00:00:00+00:00: scheduled__2015-07-06T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:52:11,321] {logging_mixin.py:95} INFO - [2019-02-10 19:52:11,321] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-06 00:00:00+00:00: scheduled__2015-07-06T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:52:11,326] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-07 00:00:00+00:00: scheduled__2015-07-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:52:11,334] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-08 00:00:00+00:00: scheduled__2015-07-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:52:11,356] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:52:11,368] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-03 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:52:11,371] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-07 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:52:11,374] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-08 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:52:11,381] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.136 seconds
+[2019-02-10 19:53:52,524] {jobs.py:391} INFO - Started process (PID=10880) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:53:52,527] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:53:52,528] {logging_mixin.py:95} INFO - [2019-02-10 19:53:52,528] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:53:52,532] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:53:52,551] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:53:52,583] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-09 00:00:00+00:00: scheduled__2015-07-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:53:52,585] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:53:52,591] {logging_mixin.py:95} INFO - [2019-02-10 19:53:52,591] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-03 00:00:00+00:00: scheduled__2015-07-03T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:53:52,596] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-07 00:00:00+00:00: scheduled__2015-07-07T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:53:52,602] {logging_mixin.py:95} INFO - [2019-02-10 19:53:52,602] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-07 00:00:00+00:00: scheduled__2015-07-07T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:53:52,607] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-08 00:00:00+00:00: scheduled__2015-07-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:53:52,616] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-09 00:00:00+00:00: scheduled__2015-07-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:53:52,633] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:53:52,644] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-08 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:53:52,648] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-09 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:53:52,656] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.132 seconds
+[2019-02-10 19:55:27,985] {jobs.py:391} INFO - Started process (PID=13081) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:55:27,988] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:55:27,988] {logging_mixin.py:95} INFO - [2019-02-10 19:55:27,988] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:55:27,992] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:55:28,012] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:55:28,044] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-10 00:00:00+00:00: scheduled__2015-07-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:55:28,046] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-08 00:00:00+00:00: scheduled__2015-07-08T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:55:28,051] {logging_mixin.py:95} INFO - [2019-02-10 19:55:28,051] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-08 00:00:00+00:00: scheduled__2015-07-08T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:55:28,056] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-09 00:00:00+00:00: scheduled__2015-07-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:55:28,065] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-10 00:00:00+00:00: scheduled__2015-07-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:55:28,081] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:55:28,095] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-09 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:55:28,098] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-10 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:55:28,106] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.121 seconds
+[2019-02-10 19:57:03,451] {jobs.py:391} INFO - Started process (PID=15278) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:57:03,455] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:57:03,455] {logging_mixin.py:95} INFO - [2019-02-10 19:57:03,455] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:57:03,459] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:57:03,478] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:57:03,512] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:57:03,514] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-09 00:00:00+00:00: scheduled__2015-07-09T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:57:03,519] {logging_mixin.py:95} INFO - [2019-02-10 19:57:03,519] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-09 00:00:00+00:00: scheduled__2015-07-09T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:57:03,526] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-10 00:00:00+00:00: scheduled__2015-07-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:57:03,534] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:57:03,551] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:57:03,563] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-10 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:57:03,566] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:57:03,573] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.122 seconds
+[2019-02-10 19:58:39,086] {jobs.py:391} INFO - Started process (PID=17511) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:58:39,089] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 19:58:39,090] {logging_mixin.py:95} INFO - [2019-02-10 19:58:39,089] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:58:39,093] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:58:39,113] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 19:58:39,147] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:58:39,149] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-10 00:00:00+00:00: scheduled__2015-07-10T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:58:39,154] {logging_mixin.py:95} INFO - [2019-02-10 19:58:39,154] {models.py:5266} INFO - Marking run <DagRun Rescale @ 2015-07-10 00:00:00+00:00: scheduled__2015-07-10T00:00:00+00:00, externally triggered: False> successful
+[2019-02-10 19:58:39,161] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:58:39,170] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 19:58:39,187] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 19:58:39,200] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:58:39,203] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 19:58:39,210] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.124 seconds
+[2019-02-10 20:00:09,821] {jobs.py:391} INFO - Started process (PID=18641) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:00:09,824] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:00:09,824] {logging_mixin.py:95} INFO - [2019-02-10 20:00:09,824] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:00:09,828] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:00:09,847] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:00:09,878] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:00:09,880] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:00:09,889] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:00:09,897] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:00:09,919] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:00:09,931] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:00:09,934] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:00:09,941] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.120 seconds
+[2019-02-10 20:01:04,739] {jobs.py:391} INFO - Started process (PID=18710) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:04,742] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:01:04,742] {logging_mixin.py:95} INFO - [2019-02-10 20:01:04,742] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:04,745] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:04,766] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:01:04,797] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:04,799] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:04,807] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:04,815] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:04,824] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:04,850] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:01:04,862] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:01:04,865] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:01:04,872] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.133 seconds
+[2019-02-10 20:01:59,705] {jobs.py:391} INFO - Started process (PID=18767) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:59,711] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:01:59,711] {logging_mixin.py:95} INFO - [2019-02-10 20:01:59,711] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:59,714] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:01:59,734] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:01:59,766] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,768] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,777] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,785] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,794] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,802] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:01:59,833] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:01:59,846] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:01:59,848] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:01:59,856] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.151 seconds
+[2019-02-10 20:02:54,590] {jobs.py:391} INFO - Started process (PID=18825) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:02:54,593] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:02:54,593] {logging_mixin.py:95} INFO - [2019-02-10 20:02:54,593] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:02:54,597] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:02:54,616] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:02:54,647] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,650] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,658] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,666] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,675] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,683] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,692] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:02:54,728] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:02:54,740] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:02:54,743] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:02:54,750] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.160 seconds
+[2019-02-10 20:03:49,436] {jobs.py:391} INFO - Started process (PID=18883) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:03:49,438] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:03:49,438] {logging_mixin.py:95} INFO - [2019-02-10 20:03:49,438] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:03:49,442] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:03:49,462] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:03:49,492] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,494] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,503] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,511] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,520] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,528] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,537] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,545] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:03:49,586] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:03:49,599] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:03:49,602] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:03:49,609] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.174 seconds
+[2019-02-10 20:04:44,242] {jobs.py:391} INFO - Started process (PID=18942) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:04:44,244] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:04:44,245] {logging_mixin.py:95} INFO - [2019-02-10 20:04:44,245] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:04:44,249] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:04:44,269] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:04:44,301] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,303] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,312] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,320] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,328] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,337] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,345] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,354] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,362] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:04:44,408] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:04:44,420] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-11 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:04:44,423] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:04:44,426] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:04:44,434] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.192 seconds
+[2019-02-10 20:05:44,935] {jobs.py:391} INFO - Started process (PID=19005) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:05:44,938] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:05:44,938] {logging_mixin.py:95} INFO - [2019-02-10 20:05:44,938] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:05:44,942] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:05:44,962] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:05:44,993] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:44,995] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,000] {logging_mixin.py:95} INFO - [2019-02-10 20:05:45,000] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-11 00:00:00+00:00: scheduled__2015-07-11T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:05:45,017] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,028] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,037] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,046] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,055] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,065] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,073] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,081] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:05:45,129] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:05:45,141] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-12 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:05:45,144] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:05:45,147] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:05:45,154] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.219 seconds
+[2019-02-10 20:06:45,650] {jobs.py:391} INFO - Started process (PID=19068) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:06:45,653] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:06:45,653] {logging_mixin.py:95} INFO - [2019-02-10 20:06:45,653] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:06:45,657] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:06:45,677] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:06:45,706] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,708] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,713] {logging_mixin.py:95} INFO - [2019-02-10 20:06:45,713] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-12 00:00:00+00:00: scheduled__2015-07-12T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:06:45,719] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,728] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,736] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,745] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,753] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,762] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,770] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,778] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:06:45,825] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:06:45,837] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-13 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:06:45,840] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:06:45,842] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:06:45,850] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.200 seconds
+[2019-02-10 20:07:46,483] {jobs.py:391} INFO - Started process (PID=19134) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:07:46,486] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:07:46,486] {logging_mixin.py:95} INFO - [2019-02-10 20:07:46,486] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:07:46,490] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:07:46,510] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:07:46,542] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,544] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,549] {logging_mixin.py:95} INFO - [2019-02-10 20:07:46,549] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-13 00:00:00+00:00: scheduled__2015-07-13T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:07:46,556] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,564] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,573] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,581] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,590] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,598] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,608] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,616] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:07:46,661] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:07:46,674] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-14 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:07:46,676] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:07:46,679] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:07:46,687] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.204 seconds
+[2019-02-10 20:08:48,026] {jobs.py:391} INFO - Started process (PID=19198) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:08:48,029] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:08:48,029] {logging_mixin.py:95} INFO - [2019-02-10 20:08:48,029] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:08:48,033] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:08:48,052] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:08:48,083] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,086] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,091] {logging_mixin.py:95} INFO - [2019-02-10 20:08:48,090] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-14 00:00:00+00:00: scheduled__2015-07-14T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:08:48,096] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,105] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,113] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,121] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,130] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,138] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,147] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,155] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:08:48,200] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:08:48,211] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-15 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:08:48,214] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:08:48,217] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-22 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:08:48,224] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.198 seconds
+[2019-02-10 20:09:48,709] {jobs.py:391} INFO - Started process (PID=19259) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:09:48,712] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:09:48,712] {logging_mixin.py:95} INFO - [2019-02-10 20:09:48,712] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:09:48,716] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:09:48,735] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:09:48,766] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,768] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,774] {logging_mixin.py:95} INFO - [2019-02-10 20:09:48,774] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-15 00:00:00+00:00: scheduled__2015-07-15T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:09:48,779] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,788] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,797] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,805] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,814] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,823] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,831] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,837] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:09:48,883] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:09:48,895] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-16 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:09:48,898] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:09:48,905] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.196 seconds
+[2019-02-10 20:10:43,685] {jobs.py:391} INFO - Started process (PID=19316) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:10:43,688] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:10:43,688] {logging_mixin.py:95} INFO - [2019-02-10 20:10:43,688] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:10:43,692] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:10:43,711] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:10:43,742] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,744] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,750] {logging_mixin.py:95} INFO - [2019-02-10 20:10:43,750] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-16 00:00:00+00:00: scheduled__2015-07-16T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:10:43,755] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,764] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,772] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,781] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,790] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,799] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,804] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,811] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:10:43,856] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:10:43,868] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-17 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:10:43,871] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:10:43,879] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.194 seconds
+[2019-02-10 20:11:38,513] {jobs.py:391} INFO - Started process (PID=19372) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:11:38,516] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:11:38,516] {logging_mixin.py:95} INFO - [2019-02-10 20:11:38,516] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:11:38,520] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:11:38,539] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:11:38,570] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,572] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,577] {logging_mixin.py:95} INFO - [2019-02-10 20:11:38,577] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-17 00:00:00+00:00: scheduled__2015-07-17T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:11:38,583] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,591] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,599] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,609] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,617] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,623] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,629] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,634] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:11:38,679] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:11:38,691] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:11:38,694] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:11:38,701] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.188 seconds
+[2019-02-10 20:12:33,356] {jobs.py:391} INFO - Started process (PID=19428) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:12:33,358] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:12:33,359] {logging_mixin.py:95} INFO - [2019-02-10 20:12:33,359] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:12:33,363] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:12:33,382] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:12:33,412] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,414] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,419] {logging_mixin.py:95} INFO - [2019-02-10 20:12:33,419] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-18 00:00:00+00:00: scheduled__2015-07-18T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:12:33,425] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,434] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,442] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,451] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,457] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,462] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,469] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,474] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:12:33,520] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:12:33,532] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-19 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:12:33,535] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:12:33,543] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.187 seconds
+[2019-02-10 20:13:28,177] {jobs.py:391} INFO - Started process (PID=19492) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:13:28,180] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:13:28,180] {logging_mixin.py:95} INFO - [2019-02-10 20:13:28,180] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:13:28,183] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:13:28,203] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:13:28,234] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,237] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,242] {logging_mixin.py:95} INFO - [2019-02-10 20:13:28,242] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-19 00:00:00+00:00: scheduled__2015-07-19T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:13:28,249] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,257] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,266] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,272] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,278] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,284] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,290] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,296] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:13:28,342] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:13:28,354] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-20 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:13:28,357] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-27 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:13:28,365] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.188 seconds
+[2019-02-10 20:14:23,145] {jobs.py:391} INFO - Started process (PID=19549) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:14:23,147] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:14:23,148] {logging_mixin.py:95} INFO - [2019-02-10 20:14:23,148] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:14:23,151] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:14:23,170] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:14:23,200] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-28 00:00:00+00:00: scheduled__2015-07-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,203] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,208] {logging_mixin.py:95} INFO - [2019-02-10 20:14:23,208] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-20 00:00:00+00:00: scheduled__2015-07-20T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:14:23,213] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,222] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,228] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,234] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,240] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,246] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,252] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,257] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-28 00:00:00+00:00: scheduled__2015-07-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:14:23,304] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:14:23,315] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Data_to_SQL 2015-07-21 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:14:23,318] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-22 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:14:23,321] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-28 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:14:23,329] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.184 seconds
+[2019-02-10 20:15:23,807] {jobs.py:391} INFO - Started process (PID=19610) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:15:23,810] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:15:23,810] {logging_mixin.py:95} INFO - [2019-02-10 20:15:23,810] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:15:23,813] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:15:23,833] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:15:23,864] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-29 00:00:00+00:00: scheduled__2015-07-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,866] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,871] {logging_mixin.py:95} INFO - [2019-02-10 20:15:23,871] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-21 00:00:00+00:00: scheduled__2015-07-21T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:15:23,877] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,892] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,897] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,904] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,910] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,915] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,921] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-28 00:00:00+00:00: scheduled__2015-07-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,927] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-29 00:00:00+00:00: scheduled__2015-07-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:15:23,970] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:15:23,982] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:15:23,985] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-29 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:15:23,992] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.186 seconds
+[2019-02-10 20:16:18,773] {jobs.py:391} INFO - Started process (PID=19701) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:16:18,776] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:16:18,776] {logging_mixin.py:95} INFO - [2019-02-10 20:16:18,776] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:16:18,779] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:16:18,799] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:16:18,829] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-30 00:00:00+00:00: scheduled__2015-07-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,832] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,837] {logging_mixin.py:95} INFO - [2019-02-10 20:16:18,837] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-22 00:00:00+00:00: scheduled__2015-07-22T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:16:18,843] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,858] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,864] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,870] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,875] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,882] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-28 00:00:00+00:00: scheduled__2015-07-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,887] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-29 00:00:00+00:00: scheduled__2015-07-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,893] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-30 00:00:00+00:00: scheduled__2015-07-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:16:18,936] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:16:18,948] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:16:18,951] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-30 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:16:18,963] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.191 seconds
+[2019-02-10 20:17:13,615] {jobs.py:391} INFO - Started process (PID=19756) to work on /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:17:13,622] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/rs-pipeline1.py for tasks to queue
+[2019-02-10 20:17:13,622] {logging_mixin.py:95} INFO - [2019-02-10 20:17:13,622] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:17:13,626] {jobs.py:1687} INFO - DAG(s) dict_keys(['Rescale']) retrieved from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 20:17:13,646] {jobs.py:1422} INFO - Processing Rescale
+[2019-02-10 20:17:13,675] {jobs.py:1426} INFO - Created <DagRun Rescale @ 2015-07-31 00:00:00+00:00: scheduled__2015-07-31T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,677] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,682] {logging_mixin.py:95} INFO - [2019-02-10 20:17:13,682] {models.py:5258} INFO - Marking run <DagRun Rescale @ 2015-07-23 00:00:00+00:00: scheduled__2015-07-23T00:00:00+00:00, externally triggered: False> failed
+[2019-02-10 20:17:13,688] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-24 00:00:00+00:00: scheduled__2015-07-24T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,703] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-25 00:00:00+00:00: scheduled__2015-07-25T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,708] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-26 00:00:00+00:00: scheduled__2015-07-26T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,715] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-27 00:00:00+00:00: scheduled__2015-07-27T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,720] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-28 00:00:00+00:00: scheduled__2015-07-28T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,726] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-29 00:00:00+00:00: scheduled__2015-07-29T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,732] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-30 00:00:00+00:00: scheduled__2015-07-30T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,738] {jobs.py:917} INFO - Examining DAG run <DagRun Rescale @ 2015-07-31 00:00:00+00:00: scheduled__2015-07-31T00:00:00+00:00, externally triggered: False>
+[2019-02-10 20:17:13,780] {jobs.py:626} INFO - Skipping SLA check for <DAG: Rescale> because no tasks in DAG have SLAs
+[2019-02-10 20:17:13,791] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:17:13,795] {jobs.py:1752} INFO - Creating / updating <TaskInstance: Rescale.Ingestion_from_S3 2015-07-31 00:00:00+00:00 [scheduled]> in ORM
+[2019-02-10 20:17:13,802] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/rs-pipeline1.py took 0.187 seconds

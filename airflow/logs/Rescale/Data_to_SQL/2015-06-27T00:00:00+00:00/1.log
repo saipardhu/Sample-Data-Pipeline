@@ -1,0 +1,24 @@
+[2019-02-10 19:37:38,638] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-27T00:00:00+00:00 [queued]>
+[2019-02-10 19:37:38,643] {models.py:1359} INFO - Dependencies all met for <TaskInstance: Rescale.Data_to_SQL 2015-06-27T00:00:00+00:00 [queued]>
+[2019-02-10 19:37:38,643] {models.py:1571} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2019-02-10 19:37:38,650] {models.py:1593} INFO - Executing <Task(BashOperator): Data_to_SQL> on 2015-06-27T00:00:00+00:00
+[2019-02-10 19:37:38,651] {base_task_runner.py:118} INFO - Running: ['bash', '-c', 'airflow run Rescale Data_to_SQL 2015-06-27T00:00:00+00:00 --job_id 108 --raw -sd DAGS_FOLDER/rs-pipeline1.py --cfg_path /tmp/tmp1urklw1e']
+[2019-02-10 19:37:39,198] {base_task_runner.py:101} INFO - Job 108: Subtask Data_to_SQL [2019-02-10 19:37:39,198] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-02-10 19:37:39,356] {base_task_runner.py:101} INFO - Job 108: Subtask Data_to_SQL [2019-02-10 19:37:39,356] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/rs-pipeline1.py
+[2019-02-10 19:37:39,368] {base_task_runner.py:101} INFO - Job 108: Subtask Data_to_SQL [2019-02-10 19:37:39,368] {cli.py:520} INFO - Running <TaskInstance: Rescale.Data_to_SQL 2015-06-27T00:00:00+00:00 [running]> on host ip-172-31-15-235.us-east-2.compute.internal
+[2019-02-10 19:37:39,380] {bash_operator.py:77} INFO - Tmp dir root location: 
+ /tmp
+[2019-02-10 19:37:39,380] {bash_operator.py:86} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=Rescale
+AIRFLOW_CTX_TASK_ID=Data_to_SQL
+AIRFLOW_CTX_EXECUTION_DATE=2015-06-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-06-27T00:00:00+00:00
+[2019-02-10 19:37:39,381] {bash_operator.py:100} INFO - Temporary script location: /tmp/airflowtmpw5v2fba9/Data_to_SQLx51e0ums
+[2019-02-10 19:37:39,381] {bash_operator.py:110} INFO - Running command: /home/ec2-user/insert_to_sql.sh 
+[2019-02-10 19:37:39,384] {bash_operator.py:119} INFO - Output:
+[2019-02-10 19:37:44,540] {bash_operator.py:127} INFO - Command exited with return code 0
+[2019-02-10 19:37:48,641] {logging_mixin.py:95} INFO - [2019-02-10 19:37:48,641] {jobs.py:2527} INFO - Task exited with return code 0

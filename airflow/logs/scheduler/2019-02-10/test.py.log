@@ -1,0 +1,1134 @@
+[2019-02-10 18:59:20,643] {jobs.py:391} INFO - Started process (PID=8421) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 18:59:20,646] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 18:59:20,646] {logging_mixin.py:95} INFO - [2019-02-10 18:59:20,646] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 18:59:20,651] {logging_mixin.py:95} INFO - [2019-02-10 18:59:20,649] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 18:59:20,651] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 18:59:20,693] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.050 seconds
+[2019-02-10 19:00:04,693] {jobs.py:391} INFO - Started process (PID=8466) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:04,696] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:00:04,697] {logging_mixin.py:95} INFO - [2019-02-10 19:00:04,697] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:04,701] {logging_mixin.py:95} INFO - [2019-02-10 19:00:04,700] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:00:04,701] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:04,712] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:00:59,573] {jobs.py:391} INFO - Started process (PID=8524) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:59,575] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:00:59,576] {logging_mixin.py:95} INFO - [2019-02-10 19:00:59,575] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:59,580] {logging_mixin.py:95} INFO - [2019-02-10 19:00:59,579] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:00:59,580] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:00:59,591] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:01:54,404] {jobs.py:391} INFO - Started process (PID=8626) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:01:54,409] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:01:54,409] {logging_mixin.py:95} INFO - [2019-02-10 19:01:54,409] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:01:54,418] {logging_mixin.py:95} INFO - [2019-02-10 19:01:54,417] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:01:54,418] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:01:54,439] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.035 seconds
+[2019-02-10 19:05:33,044] {jobs.py:391} INFO - Started process (PID=9819) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:05:33,047] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:05:33,048] {logging_mixin.py:95} INFO - [2019-02-10 19:05:33,047] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:05:33,056] {logging_mixin.py:95} INFO - [2019-02-10 19:05:33,050] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:05:33,056] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:05:33,166] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.122 seconds
+[2019-02-10 19:06:45,496] {jobs.py:391} INFO - Started process (PID=9896) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:06:45,499] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:06:45,499] {logging_mixin.py:95} INFO - [2019-02-10 19:06:45,499] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:06:45,503] {logging_mixin.py:95} INFO - [2019-02-10 19:06:45,502] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:06:45,503] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:06:45,514] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:08:09,625] {jobs.py:391} INFO - Started process (PID=9975) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:08:09,628] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:08:09,628] {logging_mixin.py:95} INFO - [2019-02-10 19:08:09,628] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:08:09,632] {logging_mixin.py:95} INFO - [2019-02-10 19:08:09,631] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:08:09,633] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:08:09,643] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:09:21,949] {jobs.py:391} INFO - Started process (PID=10045) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:09:21,952] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:09:21,952] {logging_mixin.py:95} INFO - [2019-02-10 19:09:21,952] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:09:21,957] {logging_mixin.py:95} INFO - [2019-02-10 19:09:21,955] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:09:21,957] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:09:21,967] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:10:23,014] {jobs.py:391} INFO - Started process (PID=10104) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:10:23,016] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:10:23,016] {logging_mixin.py:95} INFO - [2019-02-10 19:10:23,016] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:10:23,021] {logging_mixin.py:95} INFO - [2019-02-10 19:10:23,020] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:10:23,021] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:10:23,031] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:11:17,825] {jobs.py:391} INFO - Started process (PID=10193) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:11:17,827] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:11:17,828] {logging_mixin.py:95} INFO - [2019-02-10 19:11:17,828] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:11:17,833] {logging_mixin.py:95} INFO - [2019-02-10 19:11:17,831] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:11:17,833] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:11:17,842] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:12:11,975] {jobs.py:391} INFO - Started process (PID=10205) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:12:11,978] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:12:11,978] {logging_mixin.py:95} INFO - [2019-02-10 19:12:11,978] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:12:11,982] {logging_mixin.py:95} INFO - [2019-02-10 19:12:11,981] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:12:11,983] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:12:11,993] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:13:42,266] {jobs.py:391} INFO - Started process (PID=10285) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:13:42,270] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:13:42,270] {logging_mixin.py:95} INFO - [2019-02-10 19:13:42,270] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:13:42,309] {logging_mixin.py:95} INFO - [2019-02-10 19:13:42,308] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:13:42,309] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:13:42,318] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.051 seconds
+[2019-02-10 19:15:00,459] {jobs.py:391} INFO - Started process (PID=10354) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:15:00,461] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:15:00,462] {logging_mixin.py:95} INFO - [2019-02-10 19:15:00,462] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:15:00,466] {logging_mixin.py:95} INFO - [2019-02-10 19:15:00,465] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:15:00,467] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:15:00,477] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:16:06,966] {jobs.py:391} INFO - Started process (PID=10416) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:16:06,969] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:16:06,969] {logging_mixin.py:95} INFO - [2019-02-10 19:16:06,969] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:16:06,974] {logging_mixin.py:95} INFO - [2019-02-10 19:16:06,972] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:16:06,974] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:16:06,984] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:17:07,634] {jobs.py:391} INFO - Started process (PID=10475) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:17:07,637] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:17:07,637] {logging_mixin.py:95} INFO - [2019-02-10 19:17:07,637] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:17:07,641] {logging_mixin.py:95} INFO - [2019-02-10 19:17:07,640] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:17:07,641] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:17:07,652] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:18:42,086] {jobs.py:391} INFO - Started process (PID=10563) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:18:42,088] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:18:42,089] {logging_mixin.py:95} INFO - [2019-02-10 19:18:42,089] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:18:42,093] {logging_mixin.py:95} INFO - [2019-02-10 19:18:42,092] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:18:42,093] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:18:42,139] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.053 seconds
+[2019-02-10 19:19:48,512] {jobs.py:391} INFO - Started process (PID=10633) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:19:48,514] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:19:48,514] {logging_mixin.py:95} INFO - [2019-02-10 19:19:48,514] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:19:48,519] {logging_mixin.py:95} INFO - [2019-02-10 19:19:48,517] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:19:48,519] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:19:48,530] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:21:01,035] {jobs.py:391} INFO - Started process (PID=10706) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:21:01,038] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:21:01,038] {logging_mixin.py:95} INFO - [2019-02-10 19:21:01,038] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:21:01,042] {logging_mixin.py:95} INFO - [2019-02-10 19:21:01,041] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:21:01,043] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:21:01,053] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:22:01,932] {jobs.py:391} INFO - Started process (PID=10769) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:22:01,935] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:22:01,935] {logging_mixin.py:95} INFO - [2019-02-10 19:22:01,935] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:22:01,939] {logging_mixin.py:95} INFO - [2019-02-10 19:22:01,938] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:22:01,940] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:22:01,951] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:23:02,636] {jobs.py:391} INFO - Started process (PID=10832) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:23:02,638] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:23:02,639] {logging_mixin.py:95} INFO - [2019-02-10 19:23:02,639] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:23:02,643] {logging_mixin.py:95} INFO - [2019-02-10 19:23:02,642] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:23:02,643] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:23:02,654] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:24:03,275] {jobs.py:391} INFO - Started process (PID=10895) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:03,277] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:24:03,277] {logging_mixin.py:95} INFO - [2019-02-10 19:24:03,277] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:03,282] {logging_mixin.py:95} INFO - [2019-02-10 19:24:03,281] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:24:03,282] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:03,293] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:24:58,085] {jobs.py:391} INFO - Started process (PID=10953) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:58,088] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:24:58,088] {logging_mixin.py:95} INFO - [2019-02-10 19:24:58,088] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:58,093] {logging_mixin.py:95} INFO - [2019-02-10 19:24:58,092] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:24:58,093] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:24:58,103] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:26:25,254] {jobs.py:391} INFO - Started process (PID=11038) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:26:25,256] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:26:25,257] {logging_mixin.py:95} INFO - [2019-02-10 19:26:25,257] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:26:25,263] {logging_mixin.py:95} INFO - [2019-02-10 19:26:25,261] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:26:25,263] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:26:25,273] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:27:43,649] {jobs.py:391} INFO - Started process (PID=11120) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:27:43,652] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:27:43,652] {logging_mixin.py:95} INFO - [2019-02-10 19:27:43,652] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:27:43,690] {logging_mixin.py:95} INFO - [2019-02-10 19:27:43,689] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:27:43,690] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:27:43,699] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.050 seconds
+[2019-02-10 19:28:50,205] {jobs.py:391} INFO - Started process (PID=11188) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:28:50,208] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:28:50,208] {logging_mixin.py:95} INFO - [2019-02-10 19:28:50,208] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:28:50,212] {logging_mixin.py:95} INFO - [2019-02-10 19:28:50,211] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:28:50,212] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:28:50,223] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:29:27,393] {jobs.py:391} INFO - Started process (PID=11218) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:29:27,396] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:29:27,396] {logging_mixin.py:95} INFO - [2019-02-10 19:29:27,396] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:29:27,401] {logging_mixin.py:95} INFO - [2019-02-10 19:29:27,399] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:29:27,401] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:29:27,411] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:30:45,516] {jobs.py:391} INFO - Started process (PID=12365) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:30:45,519] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:30:45,519] {logging_mixin.py:95} INFO - [2019-02-10 19:30:45,519] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:30:45,560] {logging_mixin.py:95} INFO - [2019-02-10 19:30:45,559] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:30:45,561] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:30:45,569] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.053 seconds
+[2019-02-10 19:32:42,490] {jobs.py:391} INFO - Started process (PID=14572) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:32:42,493] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:32:42,493] {logging_mixin.py:95} INFO - [2019-02-10 19:32:42,493] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:32:42,498] {logging_mixin.py:95} INFO - [2019-02-10 19:32:42,496] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:32:42,498] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:32:42,508] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:34:28,804] {jobs.py:391} INFO - Started process (PID=16775) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:34:28,837] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:34:28,837] {logging_mixin.py:95} INFO - [2019-02-10 19:34:28,837] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:34:28,842] {logging_mixin.py:95} INFO - [2019-02-10 19:34:28,841] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:34:28,842] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:34:28,853] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.049 seconds
+[2019-02-10 19:36:25,836] {jobs.py:391} INFO - Started process (PID=18983) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:36:25,840] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:36:25,840] {logging_mixin.py:95} INFO - [2019-02-10 19:36:25,840] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:36:25,844] {logging_mixin.py:95} INFO - [2019-02-10 19:36:25,843] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:36:25,844] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:36:25,855] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:38:11,810] {jobs.py:391} INFO - Started process (PID=21180) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:38:11,814] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:38:11,814] {logging_mixin.py:95} INFO - [2019-02-10 19:38:11,814] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:38:11,818] {logging_mixin.py:95} INFO - [2019-02-10 19:38:11,817] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:38:11,818] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:38:11,830] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.020 seconds
+[2019-02-10 19:39:52,664] {jobs.py:391} INFO - Started process (PID=23376) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:39:52,667] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:39:52,668] {logging_mixin.py:95} INFO - [2019-02-10 19:39:52,668] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:39:52,672] {logging_mixin.py:95} INFO - [2019-02-10 19:39:52,671] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:39:52,673] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:39:52,682] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:41:33,384] {jobs.py:391} INFO - Started process (PID=25572) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:41:33,390] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:41:33,390] {logging_mixin.py:95} INFO - [2019-02-10 19:41:33,390] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:41:33,395] {logging_mixin.py:95} INFO - [2019-02-10 19:41:33,393] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:41:33,395] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:41:33,405] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.021 seconds
+[2019-02-10 19:43:09,229] {jobs.py:391} INFO - Started process (PID=27770) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:43:09,233] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:43:09,233] {logging_mixin.py:95} INFO - [2019-02-10 19:43:09,233] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:43:09,238] {logging_mixin.py:95} INFO - [2019-02-10 19:43:09,236] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:43:09,238] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:43:09,248] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:44:44,772] {jobs.py:391} INFO - Started process (PID=29975) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:44:44,776] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:44:44,776] {logging_mixin.py:95} INFO - [2019-02-10 19:44:44,776] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:44:44,781] {logging_mixin.py:95} INFO - [2019-02-10 19:44:44,780] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:44:44,781] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:44:44,791] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:45:41,080] {jobs.py:391} INFO - Started process (PID=32181) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:45:41,083] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:45:41,084] {logging_mixin.py:95} INFO - [2019-02-10 19:45:41,084] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:45:41,090] {logging_mixin.py:95} INFO - [2019-02-10 19:45:41,089] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:45:41,091] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:45:41,103] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.023 seconds
+[2019-02-10 19:47:05,484] {jobs.py:391} INFO - Started process (PID=1931) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:47:05,487] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:47:05,487] {logging_mixin.py:95} INFO - [2019-02-10 19:47:05,487] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:47:05,493] {logging_mixin.py:95} INFO - [2019-02-10 19:47:05,491] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:47:05,493] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:47:05,503] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.020 seconds
+[2019-02-10 19:48:41,473] {jobs.py:391} INFO - Started process (PID=4213) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:48:41,478] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:48:41,478] {logging_mixin.py:95} INFO - [2019-02-10 19:48:41,478] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:48:41,483] {logging_mixin.py:95} INFO - [2019-02-10 19:48:41,482] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:48:41,483] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:48:41,493] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.020 seconds
+[2019-02-10 19:50:11,968] {jobs.py:391} INFO - Started process (PID=6412) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:50:11,971] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:50:11,972] {logging_mixin.py:95} INFO - [2019-02-10 19:50:11,972] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:50:11,977] {logging_mixin.py:95} INFO - [2019-02-10 19:50:11,975] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:50:11,977] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:50:11,987] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:51:53,220] {jobs.py:391} INFO - Started process (PID=8653) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:51:53,223] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:51:53,224] {logging_mixin.py:95} INFO - [2019-02-10 19:51:53,223] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:51:53,228] {logging_mixin.py:95} INFO - [2019-02-10 19:51:53,227] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:51:53,228] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:51:53,238] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:53:34,500] {jobs.py:391} INFO - Started process (PID=10861) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:53:34,503] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:53:34,503] {logging_mixin.py:95} INFO - [2019-02-10 19:53:34,503] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:53:34,508] {logging_mixin.py:95} INFO - [2019-02-10 19:53:34,506] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:53:34,508] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:53:34,519] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:55:09,960] {jobs.py:391} INFO - Started process (PID=13062) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:55:10,159] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:55:10,160] {logging_mixin.py:95} INFO - [2019-02-10 19:55:10,159] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:55:10,164] {logging_mixin.py:95} INFO - [2019-02-10 19:55:10,163] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:55:10,164] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:55:10,175] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.215 seconds
+[2019-02-10 19:56:45,427] {jobs.py:391} INFO - Started process (PID=15259) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:56:45,430] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:56:45,430] {logging_mixin.py:95} INFO - [2019-02-10 19:56:45,430] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:56:45,435] {logging_mixin.py:95} INFO - [2019-02-10 19:56:45,433] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:56:45,435] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:56:45,445] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 19:58:21,061] {jobs.py:391} INFO - Started process (PID=17456) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:58:21,065] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:58:21,065] {logging_mixin.py:95} INFO - [2019-02-10 19:58:21,065] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:58:21,070] {logging_mixin.py:95} INFO - [2019-02-10 19:58:21,068] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:58:21,070] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:58:21,080] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 19:59:51,797] {jobs.py:391} INFO - Started process (PID=18622) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:59:51,800] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 19:59:51,801] {logging_mixin.py:95} INFO - [2019-02-10 19:59:51,800] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:59:51,805] {logging_mixin.py:95} INFO - [2019-02-10 19:59:51,804] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 19:59:51,806] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 19:59:51,816] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:00:46,714] {jobs.py:391} INFO - Started process (PID=18680) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:00:46,717] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:00:46,717] {logging_mixin.py:95} INFO - [2019-02-10 20:00:46,717] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:00:46,722] {logging_mixin.py:95} INFO - [2019-02-10 20:00:46,721] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:00:46,722] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:00:46,733] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:01:41,680] {jobs.py:391} INFO - Started process (PID=18749) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:01:41,684] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:01:41,684] {logging_mixin.py:95} INFO - [2019-02-10 20:01:41,684] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:01:41,689] {logging_mixin.py:95} INFO - [2019-02-10 20:01:41,688] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:01:41,689] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:01:41,699] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:02:36,572] {jobs.py:391} INFO - Started process (PID=18807) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:02:36,577] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:02:36,577] {logging_mixin.py:95} INFO - [2019-02-10 20:02:36,577] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:02:36,586] {logging_mixin.py:95} INFO - [2019-02-10 20:02:36,584] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:02:36,586] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:02:36,607] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.035 seconds
+[2019-02-10 20:03:31,411] {jobs.py:391} INFO - Started process (PID=18864) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:03:31,413] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:03:31,414] {logging_mixin.py:95} INFO - [2019-02-10 20:03:31,414] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:03:31,418] {logging_mixin.py:95} INFO - [2019-02-10 20:03:31,417] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:03:31,418] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:03:31,429] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:04:26,217] {jobs.py:391} INFO - Started process (PID=18922) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:04:26,219] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:04:26,220] {logging_mixin.py:95} INFO - [2019-02-10 20:04:26,220] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:04:26,224] {logging_mixin.py:95} INFO - [2019-02-10 20:04:26,223] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:04:26,224] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:04:26,235] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:05:26,921] {jobs.py:391} INFO - Started process (PID=18986) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:05:26,924] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:05:26,924] {logging_mixin.py:95} INFO - [2019-02-10 20:05:26,924] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:05:26,928] {logging_mixin.py:95} INFO - [2019-02-10 20:05:26,927] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:05:26,929] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:05:26,939] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:06:27,625] {jobs.py:391} INFO - Started process (PID=19049) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:06:27,629] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:06:27,629] {logging_mixin.py:95} INFO - [2019-02-10 20:06:27,629] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:06:27,634] {logging_mixin.py:95} INFO - [2019-02-10 20:06:27,632] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:06:27,634] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:06:27,644] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:07:28,458] {jobs.py:391} INFO - Started process (PID=19114) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:07:28,461] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:07:28,461] {logging_mixin.py:95} INFO - [2019-02-10 20:07:28,461] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:07:28,466] {logging_mixin.py:95} INFO - [2019-02-10 20:07:28,464] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:07:28,466] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:07:28,476] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:08:30,001] {jobs.py:391} INFO - Started process (PID=19180) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:08:30,013] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:08:30,014] {logging_mixin.py:95} INFO - [2019-02-10 20:08:30,014] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:08:30,019] {logging_mixin.py:95} INFO - [2019-02-10 20:08:30,018] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:08:30,020] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:08:30,031] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.029 seconds
+[2019-02-10 20:09:30,684] {jobs.py:391} INFO - Started process (PID=19241) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:09:30,687] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:09:30,687] {logging_mixin.py:95} INFO - [2019-02-10 20:09:30,687] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:09:30,692] {logging_mixin.py:95} INFO - [2019-02-10 20:09:30,691] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:09:30,692] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:09:30,703] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:10:25,662] {jobs.py:391} INFO - Started process (PID=19297) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:10:25,665] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:10:25,665] {logging_mixin.py:95} INFO - [2019-02-10 20:10:25,665] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:10:25,670] {logging_mixin.py:95} INFO - [2019-02-10 20:10:25,668] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:10:25,670] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:10:25,680] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:11:20,488] {jobs.py:391} INFO - Started process (PID=19353) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:11:20,491] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:11:20,491] {logging_mixin.py:95} INFO - [2019-02-10 20:11:20,491] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:11:20,496] {logging_mixin.py:95} INFO - [2019-02-10 20:11:20,494] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:11:20,496] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:11:20,507] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:12:15,331] {jobs.py:391} INFO - Started process (PID=19409) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:12:15,334] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:12:15,334] {logging_mixin.py:95} INFO - [2019-02-10 20:12:15,334] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:12:15,339] {logging_mixin.py:95} INFO - [2019-02-10 20:12:15,337] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:12:15,339] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:12:15,349] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:13:10,152] {jobs.py:391} INFO - Started process (PID=19474) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:13:10,158] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:13:10,158] {logging_mixin.py:95} INFO - [2019-02-10 20:13:10,158] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:13:10,162] {logging_mixin.py:95} INFO - [2019-02-10 20:13:10,161] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:13:10,162] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:13:10,173] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.020 seconds
+[2019-02-10 20:14:05,120] {jobs.py:391} INFO - Started process (PID=19530) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:14:05,122] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:14:05,123] {logging_mixin.py:95} INFO - [2019-02-10 20:14:05,123] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:14:05,128] {logging_mixin.py:95} INFO - [2019-02-10 20:14:05,126] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:14:05,128] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:14:05,138] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
+[2019-02-10 20:15:05,789] {jobs.py:391} INFO - Started process (PID=19591) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:15:05,793] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:15:05,793] {logging_mixin.py:95} INFO - [2019-02-10 20:15:05,793] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:15:05,798] {logging_mixin.py:95} INFO - [2019-02-10 20:15:05,796] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:15:05,798] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:15:05,808] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:16:00,748] {jobs.py:391} INFO - Started process (PID=19647) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:00,751] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:16:00,751] {logging_mixin.py:95} INFO - [2019-02-10 20:16:00,751] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:00,756] {logging_mixin.py:95} INFO - [2019-02-10 20:16:00,755] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:16:00,756] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:00,766] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.019 seconds
+[2019-02-10 20:16:55,590] {jobs.py:391} INFO - Started process (PID=19738) to work on /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:55,593] {jobs.py:1675} INFO - Processing file /home/ec2-user/airflow/dags/test.py for tasks to queue
+[2019-02-10 20:16:55,593] {logging_mixin.py:95} INFO - [2019-02-10 20:16:55,593] {models.py:273} INFO - Filling up the DagBag from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:55,598] {logging_mixin.py:95} INFO - [2019-02-10 20:16:55,597] {models.py:377} ERROR - Failed to import: /home/ec2-user/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/ec2-user/airflow/venv/lib/python3.7/site-packages/airflow/models.py", line 374, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/ec2-user/airflow/venv/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ec2-user/airflow/dags/test.py", line 19, in <module>
+    ingest = BashOperator(
+NameError: name 'BashOperator' is not defined
+[2019-02-10 20:16:55,598] {jobs.py:1689} WARNING - No viable dags retrieved from /home/ec2-user/airflow/dags/test.py
+[2019-02-10 20:16:55,608] {jobs.py:399} INFO - Processing /home/ec2-user/airflow/dags/test.py took 0.018 seconds
