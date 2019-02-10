@@ -23,7 +23,7 @@ The following are the required steps to start the pipeline for the environment m
     iii.Start airflow webserver - Use the command 'airflow webserver'
     iv.Start the airflow scheduler - Repeat steps i and ii and type 'airflow scheduler' 
 
-2. In a web browser, type the following: <<\public-IP-of-EC2\>>:8080
+2. In a web browser, type the following: \<public-IP-of-EC2>\:8080
 
 
 
