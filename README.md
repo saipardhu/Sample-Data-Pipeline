@@ -3,7 +3,7 @@
 A simple data pipeline architecture that reads data from an S3 bucket and stores it in a MySQL DB.
 
 ***Technologies Used***
-1. Airflow - To orchestrate and schedule the pipeline.
+1. Airflow - To orchestrate and schedule the pipeline. The scheduler runs everyday at 00:10hrs UTC everyday.
 2. Python - To code the airflow pipeline logic and also pull the data from the S3 bucket and perform necessary transformation on it.
 3. MySQL - Used as a DB to store the resultant data.
 4. Virtualenv - Required to install & initialize airflow.
