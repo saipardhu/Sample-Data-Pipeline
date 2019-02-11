@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#Create the database if not exits
 mysql -e "create database if not exists rescale"
 
-#Create the table with columns
 mysql -e "CREATE TABLE IF NOT EXISTS rescale.spotprices
 (
   ProductDescription varchar(50),
@@ -16,10 +14,10 @@ mysql -e "CREATE TABLE IF NOT EXISTS rescale.spotprices
 );"
 
 
-#Read all the csv files from the data dir. and insert into the table and move it to the dir. added_data 
+
 for f in /home/ec2-user/rescale/data/*
 do
-    mysql -e "load data local infile '"$f"' into table rescale.spotprices fields TERMINATED BY ',' LINES TERMINATED BY '\n'" 
+    mysql -e "load data local infile '"$f"' into table rescale.spotprices fields TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES" 
     if [ $? == 0 ] ; then
        mv "$f" /home/ec2-user/rescale/added_data
     fi
