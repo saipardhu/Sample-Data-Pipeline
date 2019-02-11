@@ -25,5 +25,9 @@ The following are the required steps to start the pipeline for the environment m
 
 2. In a web browser, type the following: \<public-IP-of-EC2>\:8080
 
-
+***Output***
+The code creates the following directories:
+i. data - Stores the data pulled from S3.
+ii. added_data - Data that has been added to the MySQL table.
+iii. logs - Stores the logs of the process.
 
