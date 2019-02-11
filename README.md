@@ -18,16 +18,17 @@ The following are the required steps to start the pipeline for the environment m
 
 1. Initialize Airflow:
 
-    i.'cd' to the airflow home(where the airflow is installed and configured with $AIRFLOW_HOME
-    ii.Activate the virtualenv - Use the command 'source <path-to-virtualenv>/bin/activate'
-    iii.Start airflow webserver - Use the command 'airflow webserver'
-    iv.Start the airflow scheduler - Repeat steps i and ii and type 'airflow scheduler' 
+    -.'cd' to the airflow home(where the airflow is installed and configured with $AIRFLOW_HOME
+    -.Activate the virtualenv - Use the command 'source <path-to-virtualenv>/bin/activate'
+    -.Start airflow webserver - Use the command 'airflow webserver'
+    -.Start the airflow scheduler - Repeat steps i and ii and type 'airflow scheduler' 
 
 2. In a web browser, type the following: \<public-IP-of-EC2>\:8080
 
 ***Output***
+
 The code creates the following directories:
-i. data - Stores the data pulled from S3.
-ii. added_data - Data that has been added to the MySQL table.
-iii. logs - Stores the logs of the process.
+-data - Stores the data pulled from S3.
+- added_data - Data that has been added to the MySQL table.
+- logs - Stores the logs of the process.
 
