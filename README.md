@@ -40,9 +40,9 @@ If any issues are being experienced by Airflow. Please run the scripts individua
 
 1. Run the python script:
 
-- python get_s3data.py 
+- _python get_s3data.py_ 
 
 2. Run the bash script:
 
-- bash insert_to_sql.sh
+- _bash insert_to_sql.sh_
  
