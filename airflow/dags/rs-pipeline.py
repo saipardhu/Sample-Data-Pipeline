@@ -8,7 +8,7 @@ from airflow.operators import SimpleHttpOperator, HttpSensor, EmailOperator, Bas
 def print_hello():
     return 'Hello world!'
 
-dag = DAG('Rescale_Test', description='Rescale Data Pipeline Application',
+dag = DAG('Sample_Test', description='Data Pipeline Application',
           schedule_interval='0 12 * * *',
           start_date=datetime(2017, 3, 20), catchup=False)
 

@@ -6,7 +6,7 @@ import datetime
 
 s3 = boto3.resource('s3')
 my_bucket = s3.Bucket('sample-spot-prices')
-p_dir = '/home/ec2-user/rescale/' #Parent directory
+p_dir = '/home/ec2-user/sample_dp/' #Parent directory
 d_dir = p_dir + 'data/'  #data directory
 add_dir = p_dir + 'added_data/'
 log_dir = p_dir + 'logs/'

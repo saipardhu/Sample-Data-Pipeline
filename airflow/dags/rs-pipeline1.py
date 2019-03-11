@@ -23,7 +23,7 @@ default_args = {
     # 'end_date': datetime(2016, 1, 1),
 }
 
-dag = DAG('Rescale',description='Rescale Data Pipeline Application', default_args=default_args, schedule_interval=timedelta(days=1))
+dag = DAG('Sample-Data-Pipeline',description='Data Pipeline Application', default_args=default_args, schedule_interval=timedelta(days=1))
 
 ingest = BashOperator(
    task_id='Ingestion_from_S3',

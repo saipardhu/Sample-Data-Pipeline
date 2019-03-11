@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mysql -e "create database if not exists rescale"
+mysql -e "create database if not exists prices"
 
-mysql -e "CREATE TABLE IF NOT EXISTS rescale.spotprices
+mysql -e "CREATE TABLE IF NOT EXISTS prices.spotprices
 (
   ProductDescription varchar(50),
   InstanceType varchar(50),  
@@ -15,10 +15,10 @@ mysql -e "CREATE TABLE IF NOT EXISTS rescale.spotprices
 
 
 
-for f in /home/ec2-user/rescale/data/*
+for f in /home/ec2-user/sample_dp/data/*
 do
-    mysql -e "load data local infile '"$f"' into table rescale.spotprices fields TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES" 
+    mysql -e "load data local infile '"$f"' into table prices.spotprices fields TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES" 
     if [ $? == 0 ] ; then
-       mv "$f" /home/ec2-user/rescale/added_data
+       mv "$f" /home/ec2-user/sample_dp/added_data
     fi
 done
