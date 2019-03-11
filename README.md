@@ -1,4 +1,4 @@
-# Rescale-Data-Pipeline
+# Data-Pipeline
 
 A simple data pipeline architecture that reads data from an S3 bucket and stores it in a MySQL DB.
 
