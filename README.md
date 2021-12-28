@@ -36,7 +36,7 @@ The code creates the following directories:
 
 ***Note***
 
-If any issues are being experienced by Airflow. Please run the scripts individually as following in the order specified:
+If any issues are being experienced by Airflow. Please run the scripts(on a terminal) individually as following in the order specified:
 
 1. Run the python script:
 
